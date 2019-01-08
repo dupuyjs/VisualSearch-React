@@ -1,0 +1,21 @@
+{
+    "_type": "images",
+    "name": "Contoso",
+    "url": "https://...",
+    "datePublished": "2018-10-19T14:15:41Z",
+    "itemCount": 1,
+    "images": [
+        {
+            "documentInfo": {
+                "id": "123456",
+                "operation": "add"
+            },
+            "image": {
+                "contentUrl": "<url to internet accessible image>"
+            },
+            "pass-through-metadata": {
+                "sku": "1234-16266"
+            }
+        }
+    ]
+}
