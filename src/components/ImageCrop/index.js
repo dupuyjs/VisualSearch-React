@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, ImageBackground, Image, PanResponder, ImageEditor } from 'react-native';
-import { string } from 'prop-types';
+import { number, string } from 'prop-types';
 
 import { DEFAULT_MARGIN, ANCHOR_VIRTUAL_SIZE, ANCHOR_DELTA } from './styles';
 import styles from './styles';
@@ -9,6 +9,7 @@ export class ImageCrop extends React.Component {
 
     static propTypes = {
         imageUri: string,
+        imageRotation: number,
     }
 
     constructor(props) {
@@ -214,14 +215,14 @@ export class ImageCrop extends React.Component {
             let layoutRatio = this.heightLayoutBoundary / this.widthLayoutBoundary;
             let imageRatio = this.heightImage / this.widthImage;
 
-            if (layoutRatio <= imageRatio) { // portrait
+            if (layoutRatio <= imageRatio) { // horizontal margins
                 this.scaleRatio = this.heightLayoutBoundary / this.heightImage;
                 this.widthImageBoundary = this.widthImage * this.scaleRatio;
                 let margin = (this.widthLayoutBoundary - this.widthImageBoundary) / 2;
                 this.horizontalMargin = margin;
                 this.verticalMargin = 0;
             }
-            else { // landscape
+            else { // vertical margins
                 this.scaleRatio = this.widthLayoutBoundary / this.widthImage;
                 this.heightImageBoundary = this.heightImage * this.scaleRatio;
                 let margin = (this.heightLayoutBoundary - this.heightImageBoundary) / 2;
@@ -257,15 +258,32 @@ export class ImageCrop extends React.Component {
 
             let left = (this.position.left + ANCHOR_DELTA) - this.horizontalMargin;
             let top = (this.position.top + ANCHOR_DELTA) - this.verticalMargin;
-
             let right = this.widthLayoutBoundary - (this.position.right + ANCHOR_DELTA) - this.horizontalMargin;
             let bottom = this.heightLayoutBoundary - (this.position.bottom + ANCHOR_DELTA) - this.verticalMargin;
 
-            let x = left / this.scaleRatio;
-            let y = top / this.scaleRatio;
+            let tx = left / this.scaleRatio;
+            let ty = top / this.scaleRatio;
+            let twidth = (right - left) / this.scaleRatio;
+            let theight = (bottom - top) / this.scaleRatio;
 
-            let width = (right - left) / this.scaleRatio;
-            let height = (bottom - top) / this.scaleRatio;
+            let x = tx;
+            let y = ty;
+            let width = twidth;
+            let height = theight; 
+
+            /* Fix in case image has been rotated of 90° */
+            if (this.props.imageRotation) {
+                switch(this.props.imageRotation) {
+                    case 90:
+                        x = ty;
+                        y = this.widthImage - tx - twidth;
+                        width = theight;
+                        height = twidth;
+                        break;
+                    default:
+                        break;
+                }
+            }
 
             cropData = {
                 offset: { x: x, y: y },
