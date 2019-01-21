@@ -1,279 +1,176 @@
 import React from 'react';
-import { StyleSheet, Text, View, TouchableOpacity, Slider } from 'react-native';
+import { Image, StatusBar, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { RNCamera } from 'react-native-camera';
+import ImagePicker from 'react-native-image-picker';
 import { NavigationScreenProps } from 'react-navigation';
+import { Assets } from '../assets/Assets';
+import { ImageData } from './ImageData';
 
-const flashModeOrder = {
-    off: 'on',
-    on: 'auto',
-    auto: 'torch',
-    torch: 'off',
-};
+export class CameraScreen extends React.Component<NavigationScreenProps> {
+  public static navigationOptions = {
+    title: 'Bing Custom Visual Search',
+  };
 
-const wbOrder = {
-    auto: 'sunny',
-    sunny: 'cloudy',
-    cloudy: 'shadow',
-    shadow: 'fluorescent',
-    fluorescent: 'incandescent',
-    incandescent: 'auto',
-};
+  private camera: RNCamera;
 
-export class CameraScreen extends React.Component<NavigationScreenProps>{
-    public static navigationOptions = {
-        title: 'CameraScreen'
+  state = {
+    flashMode: RNCamera.Constants.FlashMode.auto,
+    flashModeImageSource: Assets.FlashAuto,
+  };
+
+  getNextFlashMode = (flashMode) => {
+    if (flashMode === RNCamera.Constants.FlashMode.off) {
+      return RNCamera.Constants.FlashMode.on;
     }
+    if (flashMode === RNCamera.Constants.FlashMode.on) {
+      return RNCamera.Constants.FlashMode.auto;
+    }
+    if (flashMode === RNCamera.Constants.FlashMode.auto) {
+      return RNCamera.Constants.FlashMode.off;
+    }
+  };
 
-    public camera: any = {}
+  getFlashModeImage = (flashMode) => {
+    if (flashMode === RNCamera.Constants.FlashMode.off) {
+      return Assets.FlashOff;
+    }
+    if (flashMode === RNCamera.Constants.FlashMode.on) {
+      return Assets.Flash;
+    }
+    if (flashMode === RNCamera.Constants.FlashMode.auto) {
+      return Assets.FlashAuto;
+    }
+  };
 
-    state = {
-        flash: RNCamera.Constants.FlashMode.off,
-        zoom: 0,
-        autoFocus: RNCamera.Constants.AutoFocus.on,
-        depth: 0,
-        type: RNCamera.Constants.Type.back,
-        whiteBalance: RNCamera.Constants.WhiteBalance.auto,
-        ratio: '16:9',
-        ratios: [],
-        photoId: 1,
-        showGallery: false,
-        photos: [],
-        recordOptions: {
-          mute: false,
-          maxDuration: 5,
-          quality: RNCamera.Constants.VideoQuality['288p'],
-        },
-        isRecording: false,
-      };
+  toggleFlash = () => {
+    let newFlashMode = this.getNextFlashMode(this.state.flashMode);
+    let newFlashModeImageSource = this.getFlashModeImage(newFlashMode);
 
-      getRatios = async function() {
-        const ratios = await this.camera.getSupportedRatios();
-        return ratios;
-      };
-    
-      toggleView() {
-        this.setState({
-          showGallery: !this.state.showGallery,
-        });
-      }
-    
-      toggleFacing() {
-        this.setState({
-          type: this.state.type === 'back' ? 'front' : 'back',
-        });
-      }
-    
-      toggleFlash() {
-        this.setState({
-          flash: flashModeOrder[this.state.flash],
-        });
-      }
-    
-      setRatio(ratio) {
-        this.setState({
-          ratio,
-        });
-      }
-    
-      toggleWB() {
-        this.setState({
-          whiteBalance: wbOrder[this.state.whiteBalance],
-        });
-      }
-    
-      toggleFocus() {
-        this.setState({
-          autoFocus: this.state.autoFocus === 'on' ? 'off' : 'on',
-        });
-      }
-    
-      zoomOut() {
-        this.setState({
-          zoom: this.state.zoom - 0.1 < 0 ? 0 : this.state.zoom - 0.1,
-        });
-      }
-    
-      zoomIn() {
-        this.setState({
-          zoom: this.state.zoom + 0.1 > 1 ? 1 : this.state.zoom + 0.1,
-        });
-      }
-    
-      setFocusDepth(depth) {
-        this.setState({
-          depth,
-        });
-      }
-    
-      takePicture = async function() {
-        if (this.camera) {
-          this.camera.takePictureAsync().then(data => {
-            console.log('data: ', data);
-          });
-        }
-      };
+    this.setState({
+      flashMode: newFlashMode,
+      flashModeImageSource: newFlashModeImageSource,
+    });
+  };
 
-      renderCamera() {
-        return (
-          <RNCamera
-            ref={ref => {
-              this.camera = ref;
-            }}
-            style={{
-              flex: 1,
-            }}
-            type={this.state.type}
-            flashMode={this.state.flash}
-            autoFocus={this.state.autoFocus}
-            zoom={this.state.zoom}
-            whiteBalance={this.state.whiteBalance}
-            ratio={this.state.ratio}
-            focusDepth={this.state.depth}
-            permissionDialogTitle={'Permission to use camera'}
-            permissionDialogMessage={'We need your permission to use your camera phone'}
-          >
-            <View
-              style={{
-                flex: 0.5,
-                backgroundColor: 'transparent',
-                flexDirection: 'row',
-                justifyContent: 'space-around',
-              }}
-            >
-              <TouchableOpacity style={styles.flipButton} onPress={this.toggleFacing.bind(this)}>
-                <Text style={styles.flipText}> FLIP </Text>
-              </TouchableOpacity>
-              <TouchableOpacity style={styles.flipButton} onPress={this.toggleFlash.bind(this)}>
-                <Text style={styles.flipText}> FLASH: {this.state.flash} </Text>
-              </TouchableOpacity>
-              <TouchableOpacity style={styles.flipButton} onPress={this.toggleWB.bind(this)}>
-                <Text style={styles.flipText}> WB: {this.state.whiteBalance} </Text>
-              </TouchableOpacity>
-            </View>
-            <View
-              style={{
-                flex: 0.4,
-                backgroundColor: 'transparent',
-                flexDirection: 'row',
-                alignSelf: 'flex-end',
-              }}
-            >
-              <Slider
-                style={{ width: 150, marginTop: 15, alignSelf: 'flex-end' }}
-                onValueChange={this.setFocusDepth.bind(this)}
-                step={0.1}
-                disabled={this.state.autoFocus === 'on'}
+  launchImageLibrary = () => {
+    this.getImagesAsync();
+  };
+
+  takePicture = async () => {
+    if (this.camera) {
+      const options = { fixOrientation: true, exif: true };
+
+      this.camera.takePictureAsync(options).then((data) => {
+        const imageData: ImageData = {
+          uri: data.uri,
+          imageRotation: undefined,
+        };
+        this.props.navigation.navigate('PreviewScreen', { data: imageData });
+      });
+    }
+  };
+
+  getImagesAsync = async () => {
+    const options = {
+      title: 'select an image',
+      storageOptions: {
+        skipBackup: true,
+        path: 'images',
+      },
+    };
+
+    const launchImagePromise = () =>
+      new Promise<any>((rs, rj) => {
+        ImagePicker.launchImageLibrary(options, (response) => {
+          if (response.didCancel) rs(null);
+          if (response.error) rj(response.error);
+          rs(response);
+        });
+      });
+
+    let data = await launchImagePromise();
+    const imageData: ImageData = {
+      uri: data.uri,
+      imageRotation: data.originalRotation,
+    };
+
+    this.props.navigation.navigate('PreviewScreen', { data: imageData });
+  };
+
+  render() {
+    return (
+      <View style={styles.container}>
+        <StatusBar hidden={true} />
+        <RNCamera
+          ref={(ref) => {
+            this.camera = ref;
+          }}
+          style={styles.camera}
+          type={RNCamera.Constants.Type.back}
+          flashMode={this.state.flashMode}
+        >
+          <View style={{ flex: 1, justifyContent: 'flex-end', alignItems: 'center' }}>
+            <Text style={styles.hint}>please take a picture</Text>
+          </View>
+          <View style={styles.menu}>
+            <TouchableOpacity style={styles.sideCircleShape} onPress={this.launchImageLibrary.bind(this)}>
+              <Image style={{ width: 26, height: 26, alignSelf: 'center' }} source={Assets.Image} />
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.mainCircleShape} onPress={this.takePicture.bind(this)}>
+              <Image style={{ width: 48, height: 48, alignSelf: 'center' }} source={Assets.Camera} />
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.sideCircleShape} onPress={this.toggleFlash.bind(this)}>
+              <Image
+                style={{ width: 26, height: 26, alignSelf: 'center' }}
+                source={this.state.flashModeImageSource}
               />
-            </View>
-            <View
-              style={{
-                flex: 0.1,
-                backgroundColor: 'transparent',
-                flexDirection: 'row',
-                alignSelf: 'flex-end',
-              }}
-            >
-              <TouchableOpacity
-                style={[
-                  styles.flipButton,
-                  {
-                    flex: 0.3,
-                    alignSelf: 'flex-end',
-                    backgroundColor: this.state.isRecording ? 'white' : 'darkred',
-                  },
-                ]}
-                onPress={this.state.isRecording ? () => {} : () => {} }
-              >
-                {this.state.isRecording ? (
-                  <Text style={styles.flipText}> ☕ </Text>
-                ) : (
-                  <Text style={styles.flipText}> REC </Text>
-                )}
-              </TouchableOpacity>
-            </View>
-            <View
-              style={{
-                flex: 0.1,
-                backgroundColor: 'transparent',
-                flexDirection: 'row',
-                alignSelf: 'flex-end',
-              }}
-            >
-              <TouchableOpacity
-                style={[styles.flipButton, { flex: 0.1, alignSelf: 'flex-end' }]}
-                onPress={this.zoomIn.bind(this)}
-              >
-                <Text style={styles.flipText}> + </Text>
-              </TouchableOpacity>
-              <TouchableOpacity
-                style={[styles.flipButton, { flex: 0.1, alignSelf: 'flex-end' }]}
-                onPress={this.zoomOut.bind(this)}
-              >
-                <Text style={styles.flipText}> - </Text>
-              </TouchableOpacity>
-              <TouchableOpacity
-                style={[styles.flipButton, { flex: 0.25, alignSelf: 'flex-end' }]}
-                onPress={this.toggleFocus.bind(this)}
-              >
-                <Text style={styles.flipText}> AF : {this.state.autoFocus} </Text>
-              </TouchableOpacity>
-              <TouchableOpacity
-                style={[styles.flipButton, styles.picButton, { flex: 0.3, alignSelf: 'flex-end' }]}
-                onPress={this.takePicture.bind(this)}
-              >
-                <Text style={styles.flipText}> SNAP </Text>
-              </TouchableOpacity>
-              <TouchableOpacity
-                style={[styles.flipButton, styles.galleryButton, { flex: 0.25, alignSelf: 'flex-end' }]}
-                onPress={this.toggleView.bind(this)}
-              >
-                <Text style={styles.flipText}> Gallery </Text>
-              </TouchableOpacity>
-            </View>
-          </RNCamera>
-        );
-      }
-    
-      render() {
-        return <View style={styles.container}>{this.renderCamera()}</View>;
-      }
-
-    // render() {
-    //     return (
-    //         <View style={styles.container}>
-    //             <Text>Open up App.tsx to start working on your app!</Text>
-    //         </View>
-    //     );
-    // }
+            </TouchableOpacity>
+          </View>
+        </RNCamera>
+      </View>
+    );
+  }
 }
 
 const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-      paddingTop: 10,
-      backgroundColor: '#000',
-    },
-    flipButton: {
-      flex: 0.3,
-      height: 40,
-      marginHorizontal: 2,
-      marginBottom: 10,
-      marginTop: 20,
-      borderRadius: 8,
-      borderColor: 'white',
-      borderWidth: 1,
-      padding: 5,
-      alignItems: 'center',
-      justifyContent: 'center',
-    },
-    flipText: {
-      color: 'white',
-      fontSize: 15,
-    },
-    picButton: {
-      backgroundColor: 'darkseagreen',
-    },
-    galleryButton: {
-      backgroundColor: 'indianred',
-    },
-  });
+  container: {
+    flex: 1,
+    backgroundColor: 'black',
+  },
+  camera: {
+    flex: 1,
+    justifyContent: 'flex-end',
+  },
+  hint: {
+    borderRadius: 8,
+    paddingHorizontal: 8,
+    paddingVertical: 6,
+    color: 'white',
+    backgroundColor: 'black',
+    opacity: 0.7,
+    fontSize: 11,
+  },
+  menu: {
+    height: 100,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  mainCircleShape: {
+    width: 76,
+    height: 76,
+    borderRadius: 76 / 2,
+    opacity: 0.9,
+    justifyContent: 'center',
+    backgroundColor: 'white',
+  },
+  sideCircleShape: {
+    width: 48,
+    height: 48,
+    borderRadius: 48 / 2,
+    opacity: 0.9,
+    marginHorizontal: 24,
+    justifyContent: 'center',
+    backgroundColor: 'white',
+  },
+});
