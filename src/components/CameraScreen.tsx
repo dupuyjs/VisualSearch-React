@@ -4,6 +4,7 @@ import { RNCamera } from 'react-native-camera';
 import ImagePicker from 'react-native-image-picker';
 import { NavigationScreenProps } from 'react-navigation';
 import { Assets } from '../assets/Assets';
+import { ImageHelper } from '../utils/ImageHelper';
 import { ImageData } from './ImageData';
 
 export class CameraScreen extends React.Component<NavigationScreenProps> {
@@ -56,13 +57,15 @@ export class CameraScreen extends React.Component<NavigationScreenProps> {
     this.getImagesAsync();
   };
 
-  takePicture = async () => {
+  triggerCameraSnapshotAsync = async () => {
     if (this.camera) {
-      const options = { fixOrientation: true, exif: true };
+      const options: any = { fixOrientation: false, exif: true };
 
-      this.camera.takePictureAsync(options).then((data) => {
+      this.camera.takePictureAsync(options).then(async (data) => {
+        let uri: any = await ImageHelper.fixRotationFromExifAsync(data.uri, data.exif.Orientation);
+
         const imageData: ImageData = {
-          uri: data.uri,
+          uri: uri,
           imageRotation: undefined,
         };
         this.props.navigation.navigate('PreviewScreen', { data: imageData });
@@ -116,7 +119,7 @@ export class CameraScreen extends React.Component<NavigationScreenProps> {
             <TouchableOpacity style={styles.sideCircleShape} onPress={this.launchImageLibrary.bind(this)}>
               <Image style={{ width: 26, height: 26, alignSelf: 'center' }} source={Assets.Image} />
             </TouchableOpacity>
-            <TouchableOpacity style={styles.mainCircleShape} onPress={this.takePicture.bind(this)}>
+            <TouchableOpacity style={styles.mainCircleShape} onPress={this.triggerCameraSnapshotAsync.bind(this)}>
               <Image style={{ width: 48, height: 48, alignSelf: 'center' }} source={Assets.Camera} />
             </TouchableOpacity>
             <TouchableOpacity style={styles.sideCircleShape} onPress={this.toggleFlash.bind(this)}>

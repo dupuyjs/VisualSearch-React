@@ -3466,7 +3466,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _objectWithoutProperties = _$$_REQUIRE(_dependencyMap[2], "@babel/runtime/helpers/objectWithoutProperties");
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\ActivityIndicator\\ActivityIndicator.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\ActivityIndicator\\ActivityIndicator.js";
 
   var Platform = _$$_REQUIRE(_dependencyMap[3], "Platform");
 
@@ -7767,7 +7767,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _extends = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/extends");
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\View\\View.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\View\\View.js";
 
   var React = _$$_REQUIRE(_dependencyMap[1], "React");
 
@@ -39053,7 +39053,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _extends = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/extends");
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\ProgressBarAndroid\\ProgressBarAndroid.android.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\ProgressBarAndroid\\ProgressBarAndroid.android.js";
 
   var React = _$$_REQUIRE(_dependencyMap[1], "React");
 
@@ -39098,7 +39098,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\ART\\ReactNativeART.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\ART\\ReactNativeART.js";
   var _components = {
     Surface: {
       displayName: "Surface"
@@ -39118,7 +39118,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\ART\\ReactNativeART.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\ART\\ReactNativeART.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -44130,7 +44130,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\Button.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\Button.js";
   var _components = {
     Button: {
       displayName: "Button"
@@ -44138,7 +44138,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\Button.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\Button.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -44324,7 +44324,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[10], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Text\\Text.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Text\\Text.js";
   var _components = {
     TouchableText: {
       displayName: "TouchableText"
@@ -44332,7 +44332,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Text\\Text.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Text\\Text.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -44764,7 +44764,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _objectSpread = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/objectSpread");
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\Touchable\\Touchable.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\Touchable\\Touchable.js";
 
   var BoundingDimensions = _$$_REQUIRE(_dependencyMap[1], "BoundingDimensions");
 
@@ -46412,7 +46412,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _objectSpread = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/objectSpread");
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\Touchable\\TouchableOpacity.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\Touchable\\TouchableOpacity.js";
 
   var Animated = _$$_REQUIRE(_dependencyMap[1], "Animated");
 
@@ -50639,7 +50639,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[9], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Animated\\src\\createAnimatedComponent.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Animated\\src\\createAnimatedComponent.js";
   var _components = {
     AnimatedComponent: {
       displayName: "AnimatedComponent",
@@ -50648,7 +50648,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Animated\\src\\createAnimatedComponent.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Animated\\src\\createAnimatedComponent.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -50863,7 +50863,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[9], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Lists\\FlatList.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Lists\\FlatList.js";
   var _components = {
     FlatList: {
       displayName: "FlatList"
@@ -50871,7 +50871,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Lists\\FlatList.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Lists\\FlatList.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -51217,7 +51217,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Lists\\MetroListView.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Lists\\MetroListView.js";
   var _components = {
     MetroListView: {
       displayName: "MetroListView"
@@ -51225,7 +51225,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Lists\\MetroListView.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Lists\\MetroListView.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -51461,7 +51461,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _extends = _$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/extends");
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Lists\\ListView\\ListView.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Lists\\ListView\\ListView.js";
 
   var InternalListViewType = _$$_REQUIRE(_dependencyMap[2], "InternalListViewType");
 
@@ -52283,7 +52283,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _objectSpread = _$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/objectSpread");
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\ScrollView\\ScrollView.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\ScrollView\\ScrollView.js";
 
   var AnimatedImplementation = _$$_REQUIRE(_dependencyMap[2], "AnimatedImplementation");
 
@@ -53165,7 +53165,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\ScrollView\\ScrollViewStickyHeader.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\ScrollView\\ScrollViewStickyHeader.js";
   var _components = {
     ScrollViewStickyHeader: {
       displayName: "ScrollViewStickyHeader"
@@ -53173,7 +53173,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\ScrollView\\ScrollViewStickyHeader.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\ScrollView\\ScrollViewStickyHeader.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -53439,7 +53439,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\StaticRenderer.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\StaticRenderer.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -53544,7 +53544,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\RefreshControl\\RefreshControl.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\RefreshControl\\RefreshControl.js";
   var _components = {
     RefreshControl: {
       displayName: "RefreshControl"
@@ -53552,7 +53552,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\RefreshControl\\RefreshControl.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\RefreshControl\\RefreshControl.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -53686,7 +53686,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[11], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Lists\\VirtualizedList.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Lists\\VirtualizedList.js";
   var _components = {
     VirtualizedList: {
       displayName: "VirtualizedList"
@@ -53700,7 +53700,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Lists\\VirtualizedList.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Lists\\VirtualizedList.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -55922,7 +55922,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _objectSpread = _$$_REQUIRE(_dependencyMap[2], "@babel/runtime/helpers/objectSpread");
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Image\\Image.android.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Image\\Image.android.js";
 
   var ImageStylePropTypes = _$$_REQUIRE(_dependencyMap[3], "ImageStylePropTypes");
 
@@ -56230,7 +56230,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[9], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Lists\\SectionList.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Lists\\SectionList.js";
   var _components = {
     SectionList: {
       displayName: "SectionList"
@@ -56238,7 +56238,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Lists\\SectionList.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Lists\\SectionList.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -56379,7 +56379,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[10], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Lists\\VirtualizedSectionList.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Lists\\VirtualizedSectionList.js";
   var _components = {
     VirtualizedSectionList: {
       displayName: "VirtualizedSectionList"
@@ -56390,7 +56390,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Lists\\VirtualizedSectionList.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Lists\\VirtualizedSectionList.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -56842,7 +56842,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _objectSpread = _$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/objectSpread");
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\CheckBox\\CheckBox.android.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\CheckBox\\CheckBox.android.js";
 
   var NativeMethodsMixin = _$$_REQUIRE(_dependencyMap[2], "NativeMethodsMixin");
 
@@ -56939,7 +56939,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\DatePicker\\DatePickerIOS.android.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\DatePicker\\DatePickerIOS.android.js";
   var _components = {
     DummyDatePickerIOS: {
       displayName: "DummyDatePickerIOS"
@@ -56947,7 +56947,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\DatePicker\\DatePickerIOS.android.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\DatePicker\\DatePickerIOS.android.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -57024,7 +57024,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _objectSpread = _$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/objectSpread");
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\DrawerAndroid\\DrawerLayoutAndroid.android.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\DrawerAndroid\\DrawerLayoutAndroid.android.js";
 
   var ColorPropType = _$$_REQUIRE(_dependencyMap[2], "ColorPropType");
 
@@ -57244,7 +57244,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\StatusBar\\StatusBar.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\StatusBar\\StatusBar.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -57508,7 +57508,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[9], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Image\\ImageBackground.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Image\\ImageBackground.js";
   var _components = {
     ImageBackground: {
       displayName: "ImageBackground"
@@ -57516,7 +57516,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Image\\ImageBackground.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Image\\ImageBackground.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -57715,7 +57715,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\TextInput\\InputAccessoryView.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\TextInput\\InputAccessoryView.js";
   var _components = {
     InputAccessoryView: {
       displayName: "InputAccessoryView"
@@ -57723,7 +57723,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\TextInput\\InputAccessoryView.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\TextInput\\InputAccessoryView.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -57811,7 +57811,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[9], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\Keyboard\\KeyboardAvoidingView.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\Keyboard\\KeyboardAvoidingView.js";
   var _components = {
     KeyboardAvoidingView: {
       displayName: "KeyboardAvoidingView"
@@ -57819,7 +57819,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\Keyboard\\KeyboardAvoidingView.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\Keyboard\\KeyboardAvoidingView.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -58061,7 +58061,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\UnimplementedViews\\UnimplementedView.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\UnimplementedViews\\UnimplementedView.js";
   var _components = {
     UnimplementedView: {
       displayName: "UnimplementedView"
@@ -58069,7 +58069,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\UnimplementedViews\\UnimplementedView.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\UnimplementedViews\\UnimplementedView.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -58146,7 +58146,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Modal\\Modal.js",
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Modal\\Modal.js",
       _container;
 
   var _components = {
@@ -58156,7 +58156,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Modal\\Modal.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Modal\\Modal.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -58374,7 +58374,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\ReactNative\\AppContainer.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\ReactNative\\AppContainer.js";
   var _components = {
     AppContainer: {
       displayName: "AppContainer"
@@ -58382,7 +58382,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\ReactNative\\AppContainer.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\ReactNative\\AppContainer.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -58576,7 +58576,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Inspector\\Inspector.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Inspector\\Inspector.js";
   var _components = {
     Inspector: {
       displayName: "Inspector"
@@ -58584,7 +58584,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Inspector\\Inspector.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Inspector\\Inspector.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -58930,7 +58930,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Inspector\\InspectorOverlay.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Inspector\\InspectorOverlay.js";
   var _components = {
     InspectorOverlay: {
       displayName: "InspectorOverlay"
@@ -58938,7 +58938,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Inspector\\InspectorOverlay.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Inspector\\InspectorOverlay.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -59077,7 +59077,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Inspector\\ElementBox.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Inspector\\ElementBox.js";
   var _components = {
     ElementBox: {
       displayName: "ElementBox"
@@ -59085,7 +59085,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Inspector\\ElementBox.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Inspector\\ElementBox.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -59230,7 +59230,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Inspector\\BorderBox.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Inspector\\BorderBox.js";
   var _components = {
     BorderBox: {
       displayName: "BorderBox"
@@ -59238,7 +59238,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Inspector\\BorderBox.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Inspector\\BorderBox.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -59424,7 +59424,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Inspector\\InspectorPanel.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Inspector\\InspectorPanel.js";
   var _components = {
     InspectorPanel: {
       displayName: "InspectorPanel"
@@ -59435,7 +59435,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Inspector\\InspectorPanel.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Inspector\\InspectorPanel.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -59703,7 +59703,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Inspector\\ElementProperties.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Inspector\\ElementProperties.js";
   var _components = {
     ElementProperties: {
       displayName: "ElementProperties"
@@ -59711,7 +59711,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Inspector\\ElementProperties.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Inspector\\ElementProperties.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -59944,7 +59944,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Inspector\\BoxInspector.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Inspector\\BoxInspector.js";
   var _components = {
     BoxInspector: {
       displayName: "BoxInspector"
@@ -59955,7 +59955,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Inspector\\BoxInspector.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Inspector\\BoxInspector.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -60172,7 +60172,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Inspector\\StyleInspector.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Inspector\\StyleInspector.js";
   var _components = {
     StyleInspector: {
       displayName: "StyleInspector"
@@ -60180,7 +60180,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Inspector\\StyleInspector.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Inspector\\StyleInspector.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -60298,7 +60298,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _objectSpread = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/objectSpread");
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\Touchable\\TouchableHighlight.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\Touchable\\TouchableHighlight.js";
 
   var ColorPropType = _$$_REQUIRE(_dependencyMap[1], "ColorPropType");
 
@@ -60558,7 +60558,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Inspector\\NetworkOverlay.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Inspector\\NetworkOverlay.js";
   var _components = {
     NetworkOverlay: {
       displayName: "NetworkOverlay"
@@ -60566,7 +60566,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Inspector\\NetworkOverlay.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Inspector\\NetworkOverlay.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -61550,7 +61550,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Inspector\\PerformanceOverlay.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Inspector\\PerformanceOverlay.js";
   var _components = {
     PerformanceOverlay: {
       displayName: "PerformanceOverlay"
@@ -61558,7 +61558,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Inspector\\PerformanceOverlay.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Inspector\\PerformanceOverlay.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -61676,7 +61676,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\YellowBox\\YellowBox.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\YellowBox\\YellowBox.js";
   var _components = {
     YellowBox: {
       displayName: "YellowBox"
@@ -61685,7 +61685,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\YellowBox\\YellowBox.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\YellowBox\\YellowBox.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -61903,7 +61903,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[9], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\YellowBox\\UI\\YellowBoxList.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\YellowBox\\UI\\YellowBoxList.js";
   var _components = {
     YellowBoxList: {
       displayName: "YellowBoxList"
@@ -61911,7 +61911,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\YellowBox\\UI\\YellowBoxList.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\YellowBox\\UI\\YellowBoxList.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -62140,7 +62140,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\YellowBox\\UI\\YellowBoxButton.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\YellowBox\\UI\\YellowBoxButton.js";
 
   var React = _$$_REQUIRE(_dependencyMap[0], "React");
 
@@ -62206,7 +62206,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\YellowBox\\UI\\YellowBoxPressable.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\YellowBox\\UI\\YellowBoxPressable.js";
   var _components = {
     YellowBoxPressable: {
       displayName: "YellowBoxPressable"
@@ -62214,7 +62214,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\YellowBox\\UI\\YellowBoxPressable.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\YellowBox\\UI\\YellowBoxPressable.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -62345,7 +62345,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\YellowBox\\UI\\YellowBoxInspector.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\YellowBox\\UI\\YellowBoxInspector.js";
   var _components = {
     YellowBoxInspector: {
       displayName: "YellowBoxInspector"
@@ -62353,7 +62353,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\YellowBox\\UI\\YellowBoxInspector.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\YellowBox\\UI\\YellowBoxInspector.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -62613,7 +62613,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _toConsumableArray = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/toConsumableArray");
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\YellowBox\\Data\\YellowBoxCategory.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\YellowBox\\Data\\YellowBoxCategory.js";
 
   var React = _$$_REQUIRE(_dependencyMap[1], "React");
 
@@ -62766,7 +62766,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\YellowBox\\UI\\YellowBoxInspectorFooter.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\YellowBox\\UI\\YellowBoxInspectorFooter.js";
 
   var React = _$$_REQUIRE(_dependencyMap[0], "React");
 
@@ -62873,7 +62873,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\YellowBox\\UI\\YellowBoxInspectorHeader.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\YellowBox\\UI\\YellowBoxInspectorHeader.js";
 
   var Platform = _$$_REQUIRE(_dependencyMap[0], "Platform");
 
@@ -63021,7 +63021,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\YellowBox\\UI\\YellowBoxInspectorSourceMapStatus.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\YellowBox\\UI\\YellowBoxInspectorSourceMapStatus.js";
   var _components = {
     YellowBoxInspectorSourceMapStatus: {
       displayName: "YellowBoxInspectorSourceMapStatus"
@@ -63029,7 +63029,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\YellowBox\\UI\\YellowBoxInspectorSourceMapStatus.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\YellowBox\\UI\\YellowBoxInspectorSourceMapStatus.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -63238,7 +63238,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\YellowBox\\UI\\YellowBoxInspectorStackFrame.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\YellowBox\\UI\\YellowBoxInspectorStackFrame.js";
 
   var React = _$$_REQUIRE(_dependencyMap[0], "React");
 
@@ -63329,7 +63329,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\YellowBox\\UI\\YellowBoxListRow.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\YellowBox\\UI\\YellowBoxListRow.js";
   var _components = {
     YellowBoxListRow: {
       displayName: "YellowBoxListRow"
@@ -63337,7 +63337,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\YellowBox\\UI\\YellowBoxListRow.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\YellowBox\\UI\\YellowBoxListRow.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -63870,7 +63870,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[9], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\Picker\\Picker.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\Picker\\Picker.js";
   var _components = {
     PickerItem: {
       displayName: "PickerItem"
@@ -63881,7 +63881,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\Picker\\Picker.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\Picker\\Picker.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -64036,7 +64036,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[9], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\Picker\\PickerAndroid.android.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\Picker\\PickerAndroid.android.js";
   var _components = {
     PickerAndroid: {
       displayName: "PickerAndroid"
@@ -64044,7 +64044,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\Picker\\PickerAndroid.android.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\Picker\\PickerAndroid.android.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -64228,7 +64228,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\ProgressViewIOS\\ProgressViewIOS.android.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\ProgressViewIOS\\ProgressViewIOS.android.js";
   var _components = {
     DummyProgressViewIOS: {
       displayName: "DummyProgressViewIOS"
@@ -64236,7 +64236,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\ProgressViewIOS\\ProgressViewIOS.android.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\ProgressViewIOS\\ProgressViewIOS.android.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -64325,7 +64325,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\SegmentedControlIOS\\SegmentedControlIOS.android.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\SegmentedControlIOS\\SegmentedControlIOS.android.js";
   var _components = {
     DummySegmentedControlIOS: {
       displayName: "DummySegmentedControlIOS"
@@ -64333,7 +64333,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\SegmentedControlIOS\\SegmentedControlIOS.android.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\SegmentedControlIOS\\SegmentedControlIOS.android.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -64408,7 +64408,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _extends = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/extends");
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\Slider\\Slider.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\Slider\\Slider.js";
 
   var ReactNative = _$$_REQUIRE(_dependencyMap[1], "ReactNative");
 
@@ -64513,7 +64513,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[9], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\Switch\\Switch.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\Switch\\Switch.js";
   var _components = {
     Switch: {
       displayName: "Switch"
@@ -64521,7 +64521,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\Switch\\Switch.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\Switch\\Switch.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -64725,7 +64725,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[9], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Experimental\\SwipeableRow\\SwipeableFlatList.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Experimental\\SwipeableRow\\SwipeableFlatList.js";
   var _components = {
     SwipeableFlatList: {
       displayName: "SwipeableFlatList"
@@ -64733,7 +64733,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Experimental\\SwipeableRow\\SwipeableFlatList.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Experimental\\SwipeableRow\\SwipeableFlatList.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -64910,7 +64910,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _extends = _$$_REQUIRE(_dependencyMap[5], "@babel/runtime/helpers/extends");
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Experimental\\SwipeableRow\\SwipeableRow.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Experimental\\SwipeableRow\\SwipeableRow.js";
 
   var Animated = _$$_REQUIRE(_dependencyMap[6], "Animated");
 
@@ -65434,7 +65434,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[8], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Experimental\\SwipeableRow\\SwipeableListView.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Experimental\\SwipeableRow\\SwipeableListView.js";
   var _components = {
     SwipeableListView: {
       displayName: "SwipeableListView"
@@ -65442,7 +65442,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Experimental\\SwipeableRow\\SwipeableListView.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Experimental\\SwipeableRow\\SwipeableListView.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -65739,7 +65739,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\TabBarIOS\\TabBarIOS.android.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\TabBarIOS\\TabBarIOS.android.js";
   var _components = {
     DummyTabBarIOS: {
       displayName: "DummyTabBarIOS"
@@ -65747,7 +65747,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\TabBarIOS\\TabBarIOS.android.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\TabBarIOS\\TabBarIOS.android.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -65820,7 +65820,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[7], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\TabBarIOS\\TabBarItemIOS.android.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\TabBarIOS\\TabBarItemIOS.android.js";
   var _components = {
     DummyTab: {
       displayName: "DummyTab"
@@ -65828,7 +65828,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\TabBarIOS\\TabBarItemIOS.android.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\TabBarIOS\\TabBarItemIOS.android.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -65910,7 +65910,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _objectSpread = _$$_REQUIRE(_dependencyMap[6], "@babel/runtime/helpers/objectSpread");
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\TextInput\\TextInput.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\TextInput\\TextInput.js";
 
   var ColorPropType = _$$_REQUIRE(_dependencyMap[7], "ColorPropType");
 
@@ -66950,7 +66950,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _objectSpread = _$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/objectSpread");
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\ToolbarAndroid\\ToolbarAndroid.android.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\ToolbarAndroid\\ToolbarAndroid.android.js";
 
   var Image = _$$_REQUIRE(_dependencyMap[2], "Image");
 
@@ -67079,7 +67079,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[10], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\ViewPager\\ViewPagerAndroid.android.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\ViewPager\\ViewPagerAndroid.android.js";
   var _components = {
     ViewPagerAndroid: {
       displayName: "ViewPagerAndroid"
@@ -67087,7 +67087,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\ViewPager\\ViewPagerAndroid.android.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\ViewPager\\ViewPagerAndroid.android.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -67260,7 +67260,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactTransformHmrLibIndexJs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[9], "./../../../../react-transform-hmr/lib/index.js")).default;
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\WebView\\WebView.android.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\WebView\\WebView.android.js";
   var _components = {
     WebView: {
       displayName: "WebView"
@@ -67268,7 +67268,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = _reactTransformHmrLibIndexJs({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\Components\\WebView\\WebView.android.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\Components\\WebView\\WebView.android.js",
     components: _components,
     locals: [module],
     imports: [_default]
@@ -67984,7 +67984,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _extends = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/extends");
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\ReactNative\\renderApplication.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\ReactNative\\renderApplication.js";
 
   var AppContainer = _$$_REQUIRE(_dependencyMap[1], "AppContainer");
 
@@ -68040,7 +68040,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native\\Libraries\\ReactNative\\ReactFabricIndicator.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\Libraries\\ReactNative\\ReactFabricIndicator.js";
 
   var React = _$$_REQUIRE(_dependencyMap[0], "React");
 
@@ -85838,7 +85838,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _docsUrl = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[15], "./utils/docsUrl"));
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\@react-navigation\\native\\src\\createAppContainer.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\@react-navigation\\native\\src\\createAppContainer.js";
   var _components = {
     NavigationContainer: {
       displayName: "NavigationContainer",
@@ -85847,7 +85847,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\@react-navigation\\native\\src\\createAppContainer.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\@react-navigation\\native\\src\\createAppContainer.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -90848,7 +90848,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactNative = _$$_REQUIRE(_dependencyMap[9], "react-native");
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\@react-navigation\\native\\src\\createKeyboardAwareNavigator.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\@react-navigation\\native\\src\\createKeyboardAwareNavigator.js";
   var _components = {
     KeyboardAwareNavigator: {
       displayName: "KeyboardAwareNavigator",
@@ -90857,7 +90857,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\@react-navigation\\native\\src\\createKeyboardAwareNavigator.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\@react-navigation\\native\\src\\createKeyboardAwareNavigator.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -90977,7 +90977,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _core = _$$_REQUIRE(_dependencyMap[10], "@react-navigation/core");
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\@react-navigation\\native\\src\\createNavigationAwareScrollable.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\@react-navigation\\native\\src\\createNavigationAwareScrollable.js";
   var _components = {
     _component: {
       isInFunction: true
@@ -90989,7 +90989,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\@react-navigation\\native\\src\\createNavigationAwareScrollable.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\@react-navigation\\native\\src\\createNavigationAwareScrollable.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -91194,7 +91194,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _hoistNonReactStatics = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[10], "hoist-non-react-statics"));
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\@react-navigation\\native\\src\\withOrientation.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\@react-navigation\\native\\src\\withOrientation.js";
   var _components = {
     withOrientation: {
       displayName: "withOrientation",
@@ -91203,7 +91203,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\@react-navigation\\native\\src\\withOrientation.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\@react-navigation\\native\\src\\withOrientation.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -91310,7 +91310,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _core = _$$_REQUIRE(_dependencyMap[12], "@react-navigation/core");
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\@react-navigation\\native\\src\\ResourceSavingSceneView.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\@react-navigation\\native\\src\\ResourceSavingSceneView.js";
   var _components = {
     ResourceSavingSceneView: {
       displayName: "ResourceSavingSceneView"
@@ -91318,7 +91318,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\@react-navigation\\native\\src\\ResourceSavingSceneView.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\@react-navigation\\native\\src\\ResourceSavingSceneView.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -91454,7 +91454,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _withOrientation = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[14], "./withOrientation"));
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-safe-area-view\\index.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-safe-area-view\\index.js";
   var _components = {
     SafeView: {
       displayName: "SafeView"
@@ -91466,7 +91466,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-safe-area-view\\index.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-safe-area-view\\index.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -92014,7 +92014,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _hoistNonReactStatics = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[11], "hoist-non-react-statics"));
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-safe-area-view\\withOrientation.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-safe-area-view\\withOrientation.js";
   var _components = {
     withOrientation: {
       displayName: "withOrientation",
@@ -92023,7 +92023,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-safe-area-view\\withOrientation.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-safe-area-view\\withOrientation.js",
     components: _components,
     locals: [module],
     imports: [React.default]
@@ -92115,7 +92115,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _createNavigationAwareScrollable = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[5], "./createNavigationAwareScrollable"));
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\@react-navigation\\native\\src\\Scrollables.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\@react-navigation\\native\\src\\Scrollables.js";
   var WrappedScrollView = (0, _createNavigationAwareScrollable.default)(_reactNativeGestureHandler.ScrollView);
 
   var WrappedFlatList = _react.default.forwardRef(function (props, ref) {
@@ -92238,7 +92238,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _class,
       _temp,
-      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-gesture-handler\\Swipeable.js";
+      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-gesture-handler\\Swipeable.js";
 
   var _components = {
     Swipeable: {
@@ -92247,7 +92247,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-gesture-handler\\Swipeable.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-gesture-handler\\Swipeable.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -92672,7 +92672,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   var _gestureHandlerRootHOC = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[17], "./gestureHandlerRootHOC"));
 
   var _stateToPropMappings,
-      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-gesture-handler\\GestureHandler.js";
+      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-gesture-handler\\GestureHandler.js";
 
   var _components = {
     Handler: {
@@ -92695,7 +92695,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-gesture-handler\\GestureHandler.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-gesture-handler\\GestureHandler.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -93690,7 +93690,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _hoistNonReactStatics = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[11], "hoist-non-react-statics"));
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-gesture-handler\\gestureHandlerRootHOC.android.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-gesture-handler\\gestureHandlerRootHOC.android.js";
   var _components = {
     Wrapper: {
       displayName: "Wrapper",
@@ -93699,7 +93699,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-gesture-handler\\gestureHandlerRootHOC.android.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-gesture-handler\\gestureHandlerRootHOC.android.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -93861,7 +93861,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _class,
       _temp,
-      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-gesture-handler\\DrawerLayout.js";
+      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-gesture-handler\\DrawerLayout.js";
 
   var _components = {
     DrawerLayout: {
@@ -93870,7 +93870,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-gesture-handler\\DrawerLayout.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-gesture-handler\\DrawerLayout.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -94681,7 +94681,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _StackViewTransitionConfigs = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[13], "./StackViewTransitionConfigs"));
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-stack\\src\\views\\StackView\\StackView.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-stack\\src\\views\\StackView\\StackView.js";
   var _components = {
     StackView: {
       displayName: "StackView"
@@ -94689,7 +94689,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-stack\\src\\views\\StackView\\StackView.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-stack\\src\\views\\StackView\\StackView.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -94871,7 +94871,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _ReactNativeFeatures = _$$_REQUIRE(_dependencyMap[22], "../../utils/ReactNativeFeatures");
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-stack\\src\\views\\StackView\\StackViewLayout.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-stack\\src\\views\\StackView\\StackViewLayout.js";
   var _components = {
     StackViewLayout: {
       displayName: "StackViewLayout"
@@ -94879,7 +94879,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-stack\\src\\views\\StackView\\StackViewLayout.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-stack\\src\\views\\StackView\\StackViewLayout.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -95724,7 +95724,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactNative = _$$_REQUIRE(_dependencyMap[10], "react-native");
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-screens\\src\\screens.native.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-screens\\src\\screens.native.js";
   var _components = {
     Screen: {
       displayName: "Screen"
@@ -95735,7 +95735,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-screens\\src\\screens.native.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-screens\\src\\screens.native.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -95914,7 +95914,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _createPointerEventsContainer = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[13], "./createPointerEventsContainer"));
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-stack\\src\\views\\StackView\\StackViewCard.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-stack\\src\\views\\StackView\\StackViewCard.js";
   var _components = {
     Card: {
       displayName: "Card"
@@ -95922,7 +95922,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-stack\\src\\views\\StackView\\StackViewCard.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-stack\\src\\views\\StackView\\StackViewCard.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -96083,7 +96083,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _invariant = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[9], "../../utils/invariant"));
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-stack\\src\\views\\StackView\\createPointerEventsContainer.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-stack\\src\\views\\StackView\\createPointerEventsContainer.js";
   var _components = {
     Container: {
       displayName: "Container",
@@ -96092,7 +96092,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-stack\\src\\views\\StackView\\createPointerEventsContainer.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-stack\\src\\views\\StackView\\createPointerEventsContainer.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -96286,7 +96286,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _HeaderStyleInterpolator = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[17], "./HeaderStyleInterpolator"));
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-stack\\src\\views\\Header\\Header.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-stack\\src\\views\\Header\\Header.js";
   var _components = {
     Header: {
       displayName: "Header"
@@ -96294,7 +96294,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-stack\\src\\views\\Header\\Header.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-stack\\src\\views\\Header\\Header.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -97000,7 +97000,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactNative = _$$_REQUIRE(_dependencyMap[4], "react-native");
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-stack\\src\\views\\Header\\HeaderTitle.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-stack\\src\\views\\Header\\HeaderTitle.js";
   var AnimatedText = _reactNative.Animated.Text;
 
   var HeaderTitle = function HeaderTitle(_ref) {
@@ -97061,7 +97061,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _backIcon = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[11], "../assets/back-icon.png"));
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-stack\\src\\views\\Header\\HeaderBackButton.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-stack\\src\\views\\Header\\HeaderBackButton.js";
   var _components = {
     HeaderBackButton: {
       displayName: "HeaderBackButton"
@@ -97069,7 +97069,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-stack\\src\\views\\Header\\HeaderBackButton.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-stack\\src\\views\\Header\\HeaderBackButton.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -97326,7 +97326,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _class,
       _temp,
-      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-stack\\src\\views\\TouchableItem.js";
+      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-stack\\src\\views\\TouchableItem.js";
 
   var _components = {
     TouchableItem: {
@@ -97335,7 +97335,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-stack\\src\\views\\TouchableItem.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-stack\\src\\views\\TouchableItem.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -97448,7 +97448,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _class,
       _temp,
-      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-stack\\src\\views\\BorderlessButton.js";
+      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-stack\\src\\views\\BorderlessButton.js";
 
   var _components = {
     BorderlessButton: {
@@ -97457,7 +97457,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-stack\\src\\views\\BorderlessButton.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-stack\\src\\views\\BorderlessButton.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -97573,7 +97573,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _backIcon = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[11], "../assets/back-icon.png"));
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-stack\\src\\views\\Header\\ModularHeaderBackButton.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-stack\\src\\views\\Header\\ModularHeaderBackButton.js";
   var _components = {
     ModularHeaderBackButton: {
       displayName: "ModularHeaderBackButton"
@@ -97581,7 +97581,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-stack\\src\\views\\Header\\ModularHeaderBackButton.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-stack\\src\\views\\Header\\ModularHeaderBackButton.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -98519,7 +98519,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _ScenesReducer = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[12], "./ScenesReducer"));
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-stack\\src\\views\\Transitioner.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-stack\\src\\views\\Transitioner.js";
   var _components = {
     Transitioner: {
       displayName: "Transitioner"
@@ -98527,7 +98527,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-stack\\src\\views\\Transitioner.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-stack\\src\\views\\Transitioner.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -99168,7 +99168,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _ResourceSavingScene = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[16], "../views/ResourceSavingScene"));
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-tabs\\src\\navigators\\createBottomTabNavigator.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-tabs\\src\\navigators\\createBottomTabNavigator.js";
   var _components = {
     TabNavigationView: {
       displayName: "TabNavigationView"
@@ -99176,7 +99176,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-tabs\\src\\navigators\\createBottomTabNavigator.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-tabs\\src\\navigators\\createBottomTabNavigator.js",
     components: _components,
     locals: [module],
     imports: [React.default]
@@ -99366,7 +99366,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _core = _$$_REQUIRE(_dependencyMap[11], "@react-navigation/core");
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-tabs\\src\\utils\\createTabNavigator.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-tabs\\src\\utils\\createTabNavigator.js";
   var _components = {
     NavigationView: {
       displayName: "NavigationView",
@@ -99375,7 +99375,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-tabs\\src\\utils\\createTabNavigator.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-tabs\\src\\utils\\createTabNavigator.js",
     components: _components,
     locals: [module],
     imports: [React.default]
@@ -99672,7 +99672,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _withDimensions = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[13], "../utils/withDimensions"));
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-tabs\\src\\views\\BottomTabBar.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-tabs\\src\\views\\BottomTabBar.js";
   var _components = {
     TouchableWithoutFeedbackWrapper: {
       displayName: "TouchableWithoutFeedbackWrapper"
@@ -99683,7 +99683,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-tabs\\src\\views\\BottomTabBar.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-tabs\\src\\views\\BottomTabBar.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -100041,7 +100041,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactNative = _$$_REQUIRE(_dependencyMap[8], "react-native");
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-tabs\\src\\views\\CrossFadeIcon.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-tabs\\src\\views\\CrossFadeIcon.js";
   var _components = {
     TabBarIcon: {
       displayName: "TabBarIcon"
@@ -100049,7 +100049,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-tabs\\src\\views\\CrossFadeIcon.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-tabs\\src\\views\\CrossFadeIcon.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -100165,7 +100165,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _hoistNonReactStatics = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[11], "hoist-non-react-statics"));
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-tabs\\src\\utils\\withDimensions.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-tabs\\src\\utils\\withDimensions.js";
   var _components = {
     EnhancedComponent: {
       displayName: "EnhancedComponent",
@@ -100174,7 +100174,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-tabs\\src\\utils\\withDimensions.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-tabs\\src\\utils\\withDimensions.js",
     components: _components,
     locals: [module],
     imports: [React.default]
@@ -100364,7 +100364,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactNativeScreens = _$$_REQUIRE(_dependencyMap[12], "react-native-screens");
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-tabs\\src\\views\\ResourceSavingScene.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-tabs\\src\\views\\ResourceSavingScene.js";
   var _components = {
     ResourceSavingScene: {
       displayName: "ResourceSavingScene"
@@ -100372,7 +100372,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-tabs\\src\\views\\ResourceSavingScene.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-tabs\\src\\views\\ResourceSavingScene.js",
     components: _components,
     locals: [module],
     imports: [React.default]
@@ -100498,7 +100498,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _ResourceSavingScene = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[17], "../views/ResourceSavingScene"));
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-tabs\\src\\navigators\\createMaterialTopTabNavigator.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-tabs\\src\\navigators\\createMaterialTopTabNavigator.js";
   var _components = {
     MaterialTabView: {
       displayName: "MaterialTabView"
@@ -100506,7 +100506,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-tabs\\src\\navigators\\createMaterialTopTabNavigator.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-tabs\\src\\navigators\\createMaterialTopTabNavigator.js",
     components: _components,
     locals: [module],
     imports: [React.default]
@@ -100908,7 +100908,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _class,
       _temp,
-      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-tab-view\\src\\TabView.js";
+      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-tab-view\\src\\TabView.js";
 
   var _components = {
     TabView: {
@@ -100917,7 +100917,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-tab-view\\src\\TabView.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-tab-view\\src\\TabView.js",
     components: _components,
     locals: [module],
     imports: [React.default]
@@ -101200,7 +101200,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _class,
       _temp,
-      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-tab-view\\src\\TabBar.js";
+      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-tab-view\\src\\TabBar.js";
 
   var _components = {
     TabBar: {
@@ -101209,7 +101209,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-tab-view\\src\\TabBar.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-tab-view\\src\\TabBar.js",
     components: _components,
     locals: [module],
     imports: [React.default]
@@ -101814,7 +101814,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _class,
       _temp,
-      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-tab-view\\src\\TouchableItem.js";
+      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-tab-view\\src\\TouchableItem.js";
 
   var _components = {
     TouchableItem: {
@@ -101823,7 +101823,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-tab-view\\src\\TouchableItem.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-tab-view\\src\\TouchableItem.js",
     components: _components,
     locals: [module],
     imports: [React.default]
@@ -102013,7 +102013,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _class,
       _temp,
-      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-tab-view\\src\\PagerAndroid.js";
+      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-tab-view\\src\\PagerAndroid.js";
 
   var _components = {
     PagerAndroid: {
@@ -102022,7 +102022,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-tab-view\\src\\PagerAndroid.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-tab-view\\src\\PagerAndroid.js",
     components: _components,
     locals: [module],
     imports: [React.default]
@@ -102226,7 +102226,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _class,
       _temp,
-      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-tab-view\\src\\PagerScroll.js";
+      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-tab-view\\src\\PagerScroll.js";
 
   var _components = {
     PagerScroll: {
@@ -102235,7 +102235,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-tab-view\\src\\PagerScroll.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-tab-view\\src\\PagerScroll.js",
     components: _components,
     locals: [module],
     imports: [React.default]
@@ -102466,7 +102466,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _class,
       _temp,
-      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-tab-view\\src\\PagerPan.js";
+      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-tab-view\\src\\PagerPan.js";
 
   var _components = {
     PagerPan: {
@@ -102475,7 +102475,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-tab-view\\src\\PagerPan.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-tab-view\\src\\PagerPan.js",
     components: _components,
     locals: [module],
     imports: [React.default]
@@ -102747,7 +102747,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _class,
       _temp,
-      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-tab-view\\src\\PagerExperimental.js";
+      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-tab-view\\src\\PagerExperimental.js";
 
   var _components = {
     PagerExperimental: {
@@ -102756,7 +102756,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-tab-view\\src\\PagerExperimental.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-tab-view\\src\\PagerExperimental.js",
     components: _components,
     locals: [module],
     imports: [React.default]
@@ -102992,7 +102992,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _index = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[9], "./../../react-transform-hmr/lib/index.js"));
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-tab-view\\src\\SceneMap.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-tab-view\\src\\SceneMap.js";
   var _components = {
     SceneComponent: {
       displayName: "SceneComponent"
@@ -103000,7 +103000,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-tab-view\\src\\SceneMap.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-tab-view\\src\\SceneMap.js",
     components: _components,
     locals: [module],
     imports: [React.default]
@@ -103089,7 +103089,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _class,
       _temp,
-      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-tabs\\src\\views\\MaterialTopTabBar.js";
+      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-tabs\\src\\views\\MaterialTopTabBar.js";
 
   var _components = {
     TabBarTop: {
@@ -103098,7 +103098,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-tabs\\src\\views\\MaterialTopTabBar.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-tabs\\src\\views\\MaterialTopTabBar.js",
     components: _components,
     locals: [module],
     imports: [React.default]
@@ -103337,7 +103337,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _DrawerNavigatorItems = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[9], "../views/DrawerNavigatorItems"));
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-drawer\\dist\\navigators\\createDrawerNavigator.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-drawer\\dist\\navigators\\createDrawerNavigator.js";
 
   var defaultContentComponent = function defaultContentComponent(props) {
     return _react.default.createElement(_reactNative.ScrollView, {
@@ -103680,7 +103680,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _class,
       _temp,
-      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-drawer\\dist\\views\\DrawerView.js";
+      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-drawer\\dist\\views\\DrawerView.js";
 
   var _components = {
     DrawerView: {
@@ -103689,7 +103689,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-drawer\\dist\\views\\DrawerView.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-drawer\\dist\\views\\DrawerView.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -103995,7 +103995,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _class,
       _temp,
-      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-drawer\\dist\\views\\DrawerLayout.js";
+      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-drawer\\dist\\views\\DrawerLayout.js";
 
   var _components = {
     DrawerLayout: {
@@ -104004,7 +104004,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-drawer\\dist\\views\\DrawerLayout.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-drawer\\dist\\views\\DrawerLayout.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -104491,7 +104491,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _invariant = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[11], "../utils/invariant"));
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-drawer\\dist\\views\\DrawerSidebar.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-drawer\\dist\\views\\DrawerSidebar.js";
   var _components = {
     DrawerSidebar: {
       displayName: "DrawerSidebar"
@@ -104499,7 +104499,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-drawer\\dist\\views\\DrawerSidebar.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-drawer\\dist\\views\\DrawerSidebar.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -104683,7 +104683,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactNativeScreens = _$$_REQUIRE(_dependencyMap[12], "react-native-screens");
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-drawer\\dist\\views\\ResourceSavingScene.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-drawer\\dist\\views\\ResourceSavingScene.js";
   var _components = {
     ResourceSavingScene: {
       displayName: "ResourceSavingScene"
@@ -104691,7 +104691,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-drawer\\dist\\views\\ResourceSavingScene.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-drawer\\dist\\views\\ResourceSavingScene.js",
     components: _components,
     locals: [module],
     imports: [React.default]
@@ -104793,7 +104793,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _TouchableItem = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[5], "./TouchableItem"));
 
-  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-drawer\\dist\\views\\DrawerNavigatorItems.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-drawer\\dist\\views\\DrawerNavigatorItems.js";
 
   var DrawerNavigatorItems = function DrawerNavigatorItems(_ref) {
     var items = _ref.items,
@@ -104944,7 +104944,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _class,
       _temp,
-      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-drawer\\dist\\views\\TouchableItem.js";
+      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-drawer\\dist\\views\\TouchableItem.js";
 
   var _components = {
     TouchableItem: {
@@ -104953,7 +104953,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-navigation-drawer\\dist\\views\\TouchableItem.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-navigation-drawer\\dist\\views\\TouchableItem.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -105047,7 +105047,9 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _Assets = _$$_REQUIRE(_dependencyMap[12], "../assets/Assets");
 
-  var _jsxFileName = "C:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\scripts\\src\\components\\CameraScreen.tsx";
+  var _ImageHelper = _$$_REQUIRE(_dependencyMap[13], "../utils/ImageHelper");
+
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\src\\components\\CameraScreen.tsx";
   var _components = {
     CameraScreen: {
       displayName: "CameraScreen"
@@ -105055,7 +105057,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "C:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\scripts\\src\\components\\CameraScreen.tsx",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\src\\components\\CameraScreen.tsx",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -105130,43 +105132,60 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
         _this.getImagesAsync();
       };
 
-      _this.takePicture = function _callee() {
+      _this.triggerCameraSnapshotAsync = function _callee2() {
         var options;
-        return _regenerator.default.async(function _callee$(_context) {
+        return _regenerator.default.async(function _callee2$(_context2) {
           while (1) {
-            switch (_context.prev = _context.next) {
+            switch (_context2.prev = _context2.next) {
               case 0:
                 if (_this.camera) {
                   options = {
-                    fixOrientation: true,
+                    fixOrientation: false,
                     exif: true
                   };
 
-                  _this.camera.takePictureAsync(options).then(function (data) {
-                    var imageData = {
-                      uri: data.uri,
-                      imageRotation: undefined
-                    };
+                  _this.camera.takePictureAsync(options).then(function _callee(data) {
+                    var uri, imageData;
+                    return _regenerator.default.async(function _callee$(_context) {
+                      while (1) {
+                        switch (_context.prev = _context.next) {
+                          case 0:
+                            _context.next = 2;
+                            return _regenerator.default.awrap(_ImageHelper.ImageHelper.fixRotationFromExifAsync(data.uri, data.exif.Orientation));
 
-                    _this.props.navigation.navigate('PreviewScreen', {
-                      data: imageData
-                    });
+                          case 2:
+                            uri = _context.sent;
+                            imageData = {
+                              uri: uri,
+                              imageRotation: undefined
+                            };
+
+                            _this.props.navigation.navigate('PreviewScreen', {
+                              data: imageData
+                            });
+
+                          case 5:
+                          case "end":
+                            return _context.stop();
+                        }
+                      }
+                    }, null, this);
                   });
                 }
 
               case 1:
               case "end":
-                return _context.stop();
+                return _context2.stop();
             }
           }
         }, null, this);
       };
 
-      _this.getImagesAsync = function _callee2() {
+      _this.getImagesAsync = function _callee3() {
         var options, launchImagePromise, data, imageData;
-        return _regenerator.default.async(function _callee2$(_context2) {
+        return _regenerator.default.async(function _callee3$(_context3) {
           while (1) {
-            switch (_context2.prev = _context2.next) {
+            switch (_context3.prev = _context3.next) {
               case 0:
                 options = {
                   title: 'select an image',
@@ -105186,11 +105205,11 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
                   });
                 };
 
-                _context2.next = 4;
+                _context3.next = 4;
                 return _regenerator.default.awrap(launchImagePromise());
 
               case 4:
-                data = _context2.sent;
+                data = _context3.sent;
                 imageData = {
                   uri: data.uri,
                   imageRotation: data.originalRotation
@@ -105202,7 +105221,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
               case 7:
               case "end":
-                return _context2.stop();
+                return _context3.stop();
             }
           }
         }, null, this);
@@ -105220,13 +105239,13 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           style: styles.container,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 102
+            lineNumber: 106
           }
         }, _react.default.createElement(_reactNative.StatusBar, {
           hidden: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 103
+            lineNumber: 107
           }
         }), _react.default.createElement(_reactNativeCamera.RNCamera, {
           ref: function ref(_ref) {
@@ -105237,7 +105256,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           flashMode: this.state.flashMode,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 104
+            lineNumber: 108
           }
         }, _react.default.createElement(_reactNative.View, {
           style: {
@@ -105247,26 +105266,26 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 112
+            lineNumber: 116
           }
         }, _react.default.createElement(_reactNative.Text, {
           style: styles.hint,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 113
+            lineNumber: 117
           }
         }, "please take a picture")), _react.default.createElement(_reactNative.View, {
           style: styles.menu,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 115
+            lineNumber: 119
           }
         }, _react.default.createElement(_reactNative.TouchableOpacity, {
           style: styles.sideCircleShape,
           onPress: this.launchImageLibrary.bind(this),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 116
+            lineNumber: 120
           }
         }, _react.default.createElement(_reactNative.Image, {
           style: {
@@ -105277,14 +105296,14 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           source: _Assets.Assets.Image,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 117
+            lineNumber: 121
           }
         })), _react.default.createElement(_reactNative.TouchableOpacity, {
           style: styles.mainCircleShape,
-          onPress: this.takePicture.bind(this),
+          onPress: this.triggerCameraSnapshotAsync.bind(this),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 119
+            lineNumber: 123
           }
         }, _react.default.createElement(_reactNative.Image, {
           style: {
@@ -105295,14 +105314,14 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           source: _Assets.Assets.Camera,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 120
+            lineNumber: 124
           }
         })), _react.default.createElement(_reactNative.TouchableOpacity, {
           style: styles.sideCircleShape,
           onPress: this.toggleFlash.bind(this),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 122
+            lineNumber: 126
           }
         }, _react.default.createElement(_reactNative.Image, {
           style: {
@@ -105313,7 +105332,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           source: this.state.flashModeImageSource,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 123
+            lineNumber: 127
           }
         })))));
       }
@@ -105369,7 +105388,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       backgroundColor: 'white'
     }
   });
-},667,[1,95,19,20,27,30,33,46,184,2,668,674,675],"src\\components\\CameraScreen.tsx");
+},667,[1,95,19,20,27,30,33,46,184,2,668,674,675,727],"src\\components\\CameraScreen.tsx");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -105437,7 +105456,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _class,
       _temp,
-      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-camera\\src\\Camera.js";
+      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-camera\\src\\Camera.js";
 
   var _components = {
     Camera: {
@@ -105446,7 +105465,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-camera\\src\\Camera.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-camera\\src\\Camera.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -106045,7 +106064,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _class,
       _temp,
-      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-camera\\src\\RNCamera.js";
+      _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-camera\\src\\RNCamera.js";
 
   var _components = {
     Camera: {
@@ -106054,7 +106073,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _reactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch\\VisualSearchClient\\node_modules\\react-native-camera\\src\\RNCamera.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native-camera\\src\\RNCamera.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -114034,7 +114053,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _ImageCrop = _$$_REQUIRE(_dependencyMap[9], "./ImageCrop");
 
-  var _jsxFileName = "C:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\scripts\\src\\components\\CropScreen.tsx";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\src\\components\\CropScreen.tsx";
 
   var CropScreen = function (_React$Component) {
     (0, _inherits2.default)(CropScreen, _React$Component);
@@ -114170,7 +114189,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _styles = _interopRequireWildcard(_$$_REQUIRE(_dependencyMap[12], "./styles"));
 
-  var _jsxFileName = "C:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\scripts\\src\\components\\ImageCrop\\index.js";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\src\\components\\ImageCrop\\index.js";
   var _components = {
     ImageCrop: {
       displayName: "ImageCrop"
@@ -114178,7 +114197,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "C:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\scripts\\src\\components\\ImageCrop\\index.js",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\src\\components\\ImageCrop\\index.js",
     components: _components,
     locals: [module],
     imports: [_react.default]
@@ -114795,7 +114814,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _reactNative = _$$_REQUIRE(_dependencyMap[9], "react-native");
 
-  var _jsxFileName = "C:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\scripts\\src\\components\\MainScreen.tsx";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\src\\components\\MainScreen.tsx";
   var _components = {
     MainScreen: {
       displayName: "MainScreen"
@@ -114803,7 +114822,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   var _node_modulesReactTransformHmrLibIndexJs2 = (0, _index.default)({
-    filename: "C:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\scripts\\src\\components\\MainScreen.tsx",
+    filename: "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\src\\components\\MainScreen.tsx",
     components: _components,
     locals: [module],
     imports: [React.default]
@@ -114907,7 +114926,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _Assets = _$$_REQUIRE(_dependencyMap[8], "../assets/Assets");
 
-  var _jsxFileName = "C:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\node_modules\\react-native\\scripts\\src\\components\\PreviewScreen.tsx";
+  var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\src\\components\\PreviewScreen.tsx";
 
   var PreviewScreen = function (_React$Component) {
     (0, _inherits2.default)(PreviewScreen, _React$Component);
@@ -115586,7 +115605,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     webp: 'image/webp',
     wmf: 'image/wmf'
   };
-},691,[1,43,9,27,30,33,692,95,19,20,696,695],"src\\services\\VisualSearchRequest.ts");
+},691,[1,43,9,27,30,33,692,95,19,20,695,721],"src\\services\\VisualSearchRequest.ts");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var getPrototypeOf = _$$_REQUIRE(_dependencyMap[0], "./getPrototypeOf");
 
@@ -115674,16 +115693,9 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   module.exports = _construct;
 },694,[34],"node_modules\\@babel\\runtime\\helpers\\construct.js");
-__d(function(global, require, _aUnused, _bUnused, module, exports, _cUnused) {
-  module.exports = {
-    "baseUrl" : "https://api.cognitive.microsoft.com/bing/customvisualsearch/v1/instances/",
-    "instanceId": "3a37f816-4d92-48bf-a29a-a3ac0280b25a",
-    "accessKey": "599c05acfe564cdbb37598b12c6da61a"
-  };
-},695,[],"azurekey.json");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   module.exports = _$$_REQUIRE(_dependencyMap[0], "./lib/axios");
-},696,[697],"node_modules\\axios\\index.js");
+},695,[696],"node_modules\\axios\\index.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -115721,7 +115733,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   axios.spread = _$$_REQUIRE(_dependencyMap[7], "./helpers/spread");
   module.exports = axios;
   module.exports.default = axios;
-},697,[698,699,701,702,719,720,716,721],"node_modules\\axios\\lib\\axios.js");
+},696,[697,698,700,701,718,719,715,720],"node_modules\\axios\\lib\\axios.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -115880,7 +115892,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     extend: extend,
     trim: trim
   };
-},698,[699,700],"node_modules\\axios\\lib\\utils.js");
+},697,[698,699],"node_modules\\axios\\lib\\utils.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -115895,7 +115907,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       return fn.apply(thisArg, args);
     };
   };
-},699,[],"node_modules\\axios\\lib\\helpers\\bind.js");
+},698,[],"node_modules\\axios\\lib\\helpers\\bind.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   /*!
    * Determine if an object is a Buffer
@@ -115914,7 +115926,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   function isSlowBuffer(obj) {
     return typeof obj.readFloatLE === 'function' && typeof obj.slice === 'function' && isBuffer(obj.slice(0, 0));
   }
-},700,[],"node_modules\\is-buffer\\index.js");
+},699,[],"node_modules\\is-buffer\\index.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -115979,7 +115991,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     };
   });
   module.exports = Axios;
-},701,[702,698,713,714],"node_modules\\axios\\lib\\core\\Axios.js");
+},700,[701,697,712,713],"node_modules\\axios\\lib\\core\\Axios.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116063,7 +116075,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     defaults.headers[method] = utils.merge(DEFAULT_CONTENT_TYPE);
   });
   module.exports = defaults;
-},702,[698,703,704,704],"node_modules\\axios\\lib\\defaults.js");
+},701,[697,702,703,703],"node_modules\\axios\\lib\\defaults.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116077,7 +116089,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       }
     });
   };
-},703,[698],"node_modules\\axios\\lib\\helpers\\normalizeHeaderName.js");
+},702,[697],"node_modules\\axios\\lib\\helpers\\normalizeHeaderName.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116221,7 +116233,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       request.send(requestData);
     });
   };
-},704,[698,705,708,709,710,706,711,712],"node_modules\\axios\\lib\\adapters\\xhr.js");
+},703,[697,704,707,708,709,705,710,711],"node_modules\\axios\\lib\\adapters\\xhr.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116236,7 +116248,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       reject(createError('Request failed with status code ' + response.status, response.config, null, response.request, response));
     }
   };
-},705,[706],"node_modules\\axios\\lib\\core\\settle.js");
+},704,[705],"node_modules\\axios\\lib\\core\\settle.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116246,7 +116258,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     var error = new Error(message);
     return enhanceError(error, config, code, request, response);
   };
-},706,[707],"node_modules\\axios\\lib\\core\\createError.js");
+},705,[706],"node_modules\\axios\\lib\\core\\createError.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116261,7 +116273,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     error.response = response;
     return error;
   };
-},707,[],"node_modules\\axios\\lib\\core\\enhanceError.js");
+},706,[],"node_modules\\axios\\lib\\core\\enhanceError.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116314,7 +116326,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
     return url;
   };
-},708,[698],"node_modules\\axios\\lib\\helpers\\buildURL.js");
+},707,[697],"node_modules\\axios\\lib\\helpers\\buildURL.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116351,7 +116363,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     });
     return parsed;
   };
-},709,[698],"node_modules\\axios\\lib\\helpers\\parseHeaders.js");
+},708,[697],"node_modules\\axios\\lib\\helpers\\parseHeaders.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116393,7 +116405,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       return true;
     };
   }();
-},710,[698],"node_modules\\axios\\lib\\helpers\\isURLSameOrigin.js");
+},709,[697],"node_modules\\axios\\lib\\helpers\\isURLSameOrigin.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116425,7 +116437,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   }
 
   module.exports = btoa;
-},711,[],"node_modules\\axios\\lib\\helpers\\btoa.js");
+},710,[],"node_modules\\axios\\lib\\helpers\\btoa.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116472,7 +116484,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       remove: function remove() {}
     };
   }();
-},712,[698],"node_modules\\axios\\lib\\helpers\\cookies.js");
+},711,[697],"node_modules\\axios\\lib\\helpers\\cookies.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116505,7 +116517,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   module.exports = InterceptorManager;
-},713,[698],"node_modules\\axios\\lib\\core\\InterceptorManager.js");
+},712,[697],"node_modules\\axios\\lib\\core\\InterceptorManager.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116557,7 +116569,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       return Promise.reject(reason);
     });
   };
-},714,[698,715,716,702,717,718],"node_modules\\axios\\lib\\core\\dispatchRequest.js");
+},713,[697,714,715,701,716,717],"node_modules\\axios\\lib\\core\\dispatchRequest.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116569,28 +116581,28 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     });
     return data;
   };
-},715,[698],"node_modules\\axios\\lib\\core\\transformData.js");
+},714,[697],"node_modules\\axios\\lib\\core\\transformData.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
   module.exports = function isCancel(value) {
     return !!(value && value.__CANCEL__);
   };
-},716,[],"node_modules\\axios\\lib\\cancel\\isCancel.js");
+},715,[],"node_modules\\axios\\lib\\cancel\\isCancel.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
   module.exports = function isAbsoluteURL(url) {
     return /^([a-z][a-z\d\+\-\.]*:)?\/\//i.test(url);
   };
-},717,[],"node_modules\\axios\\lib\\helpers\\isAbsoluteURL.js");
+},716,[],"node_modules\\axios\\lib\\helpers\\isAbsoluteURL.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
   module.exports = function combineURLs(baseURL, relativeURL) {
     return relativeURL ? baseURL.replace(/\/+$/, '') + '/' + relativeURL.replace(/^\/+/, '') : baseURL;
   };
-},718,[],"node_modules\\axios\\lib\\helpers\\combineURLs.js");
+},717,[],"node_modules\\axios\\lib\\helpers\\combineURLs.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116604,7 +116616,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   Cancel.prototype.__CANCEL__ = true;
   module.exports = Cancel;
-},719,[],"node_modules\\axios\\lib\\cancel\\Cancel.js");
+},718,[],"node_modules\\axios\\lib\\cancel\\Cancel.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116648,7 +116660,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   module.exports = CancelToken;
-},720,[719],"node_modules\\axios\\lib\\cancel\\CancelToken.js");
+},719,[718],"node_modules\\axios\\lib\\cancel\\CancelToken.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116657,13 +116669,153 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       return callback.apply(null, arr);
     };
   };
-},721,[],"node_modules\\axios\\lib\\helpers\\spread.js");
+},720,[],"node_modules\\axios\\lib\\helpers\\spread.js");
+__d(function(global, require, _aUnused, _bUnused, module, exports, _cUnused) {
+  module.exports = {
+    "baseUrl" : "https://api.cognitive.microsoft.com/bing/customvisualsearch/v1/instances/",
+    "instanceId": "3a37f816-4d92-48bf-a29a-a3ac0280b25a",
+    "accessKey": "599c05acfe564cdbb37598b12c6da61a"
+  };
+},721,[],"azurekey.json");
 __d(function(global, require, _aUnused, _bUnused, module, exports, _cUnused) {
   module.exports = {
   "name": "VisualSearchClient",
   "displayName": "VisualSearchClient"
 };
 },722,[],"app.json");
+__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
+  var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.ImageHelper = exports.ORIENTATION = void 0;
+
+  var _regenerator = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[1], "@babel/runtime/regenerator"));
+
+  var _classCallCheck2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[2], "@babel/runtime/helpers/classCallCheck"));
+
+  var _reactNativeImageResizer = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[3], "react-native-image-resizer"));
+
+  var MAX_WIDTH = 2000;
+  var MAX_HEIGHT = 2000;
+  var QUALITY = 80;
+  var ORIENTATION;
+  exports.ORIENTATION = ORIENTATION;
+
+  (function (ORIENTATION) {
+    ORIENTATION[ORIENTATION["ROTATE_0"] = 0] = "ROTATE_0";
+    ORIENTATION[ORIENTATION["ROTATE_90"] = 90] = "ROTATE_90";
+    ORIENTATION[ORIENTATION["ROTATE_180"] = 180] = "ROTATE_180";
+    ORIENTATION[ORIENTATION["ROTATE_270"] = 270] = "ROTATE_270";
+  })(ORIENTATION || (exports.ORIENTATION = ORIENTATION = {}));
+
+  var ImageHelper = function ImageHelper() {
+    (0, _classCallCheck2.default)(this, ImageHelper);
+  };
+
+  exports.ImageHelper = ImageHelper;
+
+  ImageHelper.postRotateAsync = function _callee(uri, angle) {
+    var uriUpdated, data;
+    return _regenerator.default.async(function _callee$(_context) {
+      while (1) {
+        switch (_context.prev = _context.next) {
+          case 0:
+            uriUpdated = undefined;
+            _context.prev = 1;
+            _context.next = 4;
+            return _regenerator.default.awrap(_reactNativeImageResizer.default.createResizedImage(uri, MAX_WIDTH, MAX_HEIGHT, 'JPEG', QUALITY, angle));
+
+          case 4:
+            data = _context.sent;
+            uriUpdated = data.uri;
+            _context.next = 11;
+            break;
+
+          case 8:
+            _context.prev = 8;
+            _context.t0 = _context["catch"](1);
+            console.log(_context.t0);
+
+          case 11:
+            return _context.abrupt("return", uriUpdated);
+
+          case 12:
+          case "end":
+            return _context.stop();
+        }
+      }
+    }, null, this, [[1, 8]]);
+  };
+
+  ImageHelper.fixRotationFromExifAsync = function _callee2(uri, exifOrientation) {
+    return _regenerator.default.async(function _callee2$(_context2) {
+      while (1) {
+        switch (_context2.prev = _context2.next) {
+          case 0:
+            _context2.t0 = exifOrientation;
+            _context2.next = _context2.t0 === 6 ? 3 : _context2.t0 === 3 ? 6 : _context2.t0 === 8 ? 9 : 12;
+            break;
+
+          case 3:
+            _context2.next = 5;
+            return _regenerator.default.awrap(ImageHelper.postRotateAsync(uri, ORIENTATION.ROTATE_90));
+
+          case 5:
+            return _context2.abrupt("return", _context2.sent);
+
+          case 6:
+            _context2.next = 8;
+            return _regenerator.default.awrap(ImageHelper.postRotateAsync(uri, ORIENTATION.ROTATE_180));
+
+          case 8:
+            return _context2.abrupt("return", _context2.sent);
+
+          case 9:
+            _context2.next = 11;
+            return _regenerator.default.awrap(ImageHelper.postRotateAsync(uri, ORIENTATION.ROTATE_270));
+
+          case 11:
+            return _context2.abrupt("return", _context2.sent);
+
+          case 12:
+            _context2.next = 14;
+            return _regenerator.default.awrap(ImageHelper.postRotateAsync(uri, ORIENTATION.ROTATE_0));
+
+          case 14:
+            return _context2.abrupt("return", _context2.sent);
+
+          case 15:
+          case "end":
+            return _context2.stop();
+        }
+      }
+    }, null, this);
+  };
+},727,[1,95,19,726],"src\\utils\\ImageHelper.ts");
+__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
+  var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = void 0;
+
+  var _reactNative = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[1], "react-native"));
+
+  var ImageResizerAndroid = _reactNative.default.NativeModules.ImageResizerAndroid;
+  var _default = {
+    createResizedImage: function createResizedImage(imagePath, newWidth, newHeight, compressFormat, quality) {
+      var rotation = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : 0;
+      var outputPath = arguments.length > 6 ? arguments[6] : undefined;
+      return new Promise(function (resolve, reject) {
+        ImageResizerAndroid.createResizedImage(imagePath, newWidth, newHeight, compressFormat, quality, rotation, outputPath, resolve, reject);
+      });
+    }
+  };
+  exports.default = _default;
+},726,[1,2],"node_modules\\react-native-image-resizer\\index.android.js");
 __r(82);
 __r(0);
 //# sourceMappingURL=index.map
