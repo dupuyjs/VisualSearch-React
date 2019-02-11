@@ -1371,7 +1371,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   _reactNative.AppRegistry.registerComponent(_app.name, function () {
     return _App.default;
   });
-},0,[1,2,540,722],"index.js");
+},0,[1,2,540,724],"index.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : {
@@ -85758,7 +85758,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   var _default = (0, _native.createAppContainer)(AppNavigator);
 
   exports.default = _default;
-},540,[541,607,667,685,688,689,690],"App.tsx");
+},540,[541,607,667,687,690,691,692],"App.tsx");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   module.exports = {
     get createAppContainer() {
@@ -105145,7 +105145,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
                   };
 
                   _this.camera.takePictureAsync(options).then(function _callee(data) {
-                    var uri, imageData;
+                    var imageInfo, imageData;
                     return _regenerator.default.async(function _callee$(_context) {
                       while (1) {
                         switch (_context.prev = _context.next) {
@@ -105154,9 +105154,9 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
                             return _regenerator.default.awrap(_ImageHelper.ImageHelper.fixRotationFromExifAsync(data.uri, data.exif.Orientation));
 
                           case 2:
-                            uri = _context.sent;
+                            imageInfo = _context.sent;
                             imageData = {
-                              uri: uri,
+                              uri: imageInfo.uri,
                               imageRotation: undefined
                             };
 
@@ -105239,13 +105239,13 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           style: styles.container,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 106
+            lineNumber: 105
           }
         }, _react.default.createElement(_reactNative.StatusBar, {
           hidden: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 107
+            lineNumber: 106
           }
         }), _react.default.createElement(_reactNativeCamera.RNCamera, {
           ref: function ref(_ref) {
@@ -105256,7 +105256,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           flashMode: this.state.flashMode,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 108
+            lineNumber: 107
           }
         }, _react.default.createElement(_reactNative.View, {
           style: {
@@ -105266,26 +105266,26 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 116
+            lineNumber: 115
           }
         }, _react.default.createElement(_reactNative.Text, {
           style: styles.hint,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 117
+            lineNumber: 116
           }
         }, "please take a picture")), _react.default.createElement(_reactNative.View, {
           style: styles.menu,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 119
+            lineNumber: 118
           }
         }, _react.default.createElement(_reactNative.TouchableOpacity, {
           style: styles.sideCircleShape,
           onPress: this.launchImageLibrary.bind(this),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 120
+            lineNumber: 119
           }
         }, _react.default.createElement(_reactNative.Image, {
           style: {
@@ -105296,14 +105296,14 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           source: _Assets.Assets.Image,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 121
+            lineNumber: 120
           }
         })), _react.default.createElement(_reactNative.TouchableOpacity, {
           style: styles.mainCircleShape,
           onPress: this.triggerCameraSnapshotAsync.bind(this),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 123
+            lineNumber: 122
           }
         }, _react.default.createElement(_reactNative.Image, {
           style: {
@@ -105314,14 +105314,14 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           source: _Assets.Assets.Camera,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 124
+            lineNumber: 123
           }
         })), _react.default.createElement(_reactNative.TouchableOpacity, {
           style: styles.sideCircleShape,
           onPress: this.toggleFlash.bind(this),
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 126
+            lineNumber: 125
           }
         }, _react.default.createElement(_reactNative.Image, {
           style: {
@@ -105332,7 +105332,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           source: this.state.flashModeImageSource,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 127
+            lineNumber: 126
           }
         })))));
       }
@@ -105388,7 +105388,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       backgroundColor: 'white'
     }
   });
-},667,[1,95,19,20,27,30,33,46,184,2,668,674,675,727],"src\\components\\CameraScreen.tsx");
+},667,[1,95,19,20,27,30,33,46,184,2,668,674,675,685],"src\\components\\CameraScreen.tsx");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -114033,6 +114033,175 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   Object.defineProperty(exports, "__esModule", {
     value: true
   });
+  exports.ImageHelper = exports.ORIENTATION = void 0;
+
+  var _regenerator = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[1], "@babel/runtime/regenerator"));
+
+  var _classCallCheck2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[2], "@babel/runtime/helpers/classCallCheck"));
+
+  var _reactNativeImageResizer = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[3], "react-native-image-resizer"));
+
+  var MAX_WIDTH = 1000;
+  var MAX_HEIGHT = 1000;
+  var QUALITY = 80;
+  var ORIENTATION;
+  exports.ORIENTATION = ORIENTATION;
+
+  (function (ORIENTATION) {
+    ORIENTATION[ORIENTATION["ROTATE_0"] = 0] = "ROTATE_0";
+    ORIENTATION[ORIENTATION["ROTATE_90"] = 90] = "ROTATE_90";
+    ORIENTATION[ORIENTATION["ROTATE_180"] = 180] = "ROTATE_180";
+    ORIENTATION[ORIENTATION["ROTATE_270"] = 270] = "ROTATE_270";
+  })(ORIENTATION || (exports.ORIENTATION = ORIENTATION = {}));
+
+  var ImageHelper = function ImageHelper() {
+    (0, _classCallCheck2.default)(this, ImageHelper);
+  };
+
+  exports.ImageHelper = ImageHelper;
+
+  ImageHelper.postRotateAsync = function _callee(uri, angle) {
+    var data;
+    return _regenerator.default.async(function _callee$(_context) {
+      while (1) {
+        switch (_context.prev = _context.next) {
+          case 0:
+            data = undefined;
+            _context.prev = 1;
+            _context.next = 4;
+            return _regenerator.default.awrap(_reactNativeImageResizer.default.createResizedImage(uri, MAX_WIDTH, MAX_HEIGHT, 'JPEG', QUALITY, angle));
+
+          case 4:
+            data = _context.sent;
+            _context.next = 10;
+            break;
+
+          case 7:
+            _context.prev = 7;
+            _context.t0 = _context["catch"](1);
+            console.log(_context.t0);
+
+          case 10:
+            return _context.abrupt("return", data);
+
+          case 11:
+          case "end":
+            return _context.stop();
+        }
+      }
+    }, null, this, [[1, 7]]);
+  };
+
+  ImageHelper.limitImageSizeAsync = function _callee2(uri) {
+    var data;
+    return _regenerator.default.async(function _callee2$(_context2) {
+      while (1) {
+        switch (_context2.prev = _context2.next) {
+          case 0:
+            data = undefined;
+            _context2.prev = 1;
+            _context2.next = 4;
+            return _regenerator.default.awrap(_reactNativeImageResizer.default.createResizedImage(uri, MAX_WIDTH, MAX_HEIGHT, 'JPEG', QUALITY, 0));
+
+          case 4:
+            data = _context2.sent;
+
+            if (data.size >= 100000) {
+              console.error('Image size should be less than 1MB, please reduce MAX_WIDTH, MAX_HEIGHT or QUALITY');
+            }
+
+            _context2.next = 11;
+            break;
+
+          case 8:
+            _context2.prev = 8;
+            _context2.t0 = _context2["catch"](1);
+            console.log(_context2.t0);
+
+          case 11:
+            return _context2.abrupt("return", data);
+
+          case 12:
+          case "end":
+            return _context2.stop();
+        }
+      }
+    }, null, this, [[1, 8]]);
+  };
+
+  ImageHelper.fixRotationFromExifAsync = function _callee3(uri, exifOrientation) {
+    return _regenerator.default.async(function _callee3$(_context3) {
+      while (1) {
+        switch (_context3.prev = _context3.next) {
+          case 0:
+            _context3.t0 = exifOrientation;
+            _context3.next = _context3.t0 === 6 ? 3 : _context3.t0 === 3 ? 6 : _context3.t0 === 8 ? 9 : 12;
+            break;
+
+          case 3:
+            _context3.next = 5;
+            return _regenerator.default.awrap(ImageHelper.postRotateAsync(uri, ORIENTATION.ROTATE_90));
+
+          case 5:
+            return _context3.abrupt("return", _context3.sent);
+
+          case 6:
+            _context3.next = 8;
+            return _regenerator.default.awrap(ImageHelper.postRotateAsync(uri, ORIENTATION.ROTATE_180));
+
+          case 8:
+            return _context3.abrupt("return", _context3.sent);
+
+          case 9:
+            _context3.next = 11;
+            return _regenerator.default.awrap(ImageHelper.postRotateAsync(uri, ORIENTATION.ROTATE_270));
+
+          case 11:
+            return _context3.abrupt("return", _context3.sent);
+
+          case 12:
+            _context3.next = 14;
+            return _regenerator.default.awrap(ImageHelper.postRotateAsync(uri, ORIENTATION.ROTATE_0));
+
+          case 14:
+            return _context3.abrupt("return", _context3.sent);
+
+          case 15:
+          case "end":
+            return _context3.stop();
+        }
+      }
+    }, null, this);
+  };
+},685,[1,95,19,686],"src\\utils\\ImageHelper.ts");
+__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
+  var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = void 0;
+
+  var _reactNative = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[1], "react-native"));
+
+  var ImageResizerAndroid = _reactNative.default.NativeModules.ImageResizerAndroid;
+  var _default = {
+    createResizedImage: function createResizedImage(imagePath, newWidth, newHeight, compressFormat, quality) {
+      var rotation = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : 0;
+      var outputPath = arguments.length > 6 ? arguments[6] : undefined;
+      return new Promise(function (resolve, reject) {
+        ImageResizerAndroid.createResizedImage(imagePath, newWidth, newHeight, compressFormat, quality, rotation, outputPath, resolve, reject);
+      });
+    }
+  };
+  exports.default = _default;
+},686,[1,2],"node_modules\\react-native-image-resizer\\index.android.js");
+__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
+  var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
+
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
   exports.CropScreen = void 0;
 
   var _classCallCheck2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[1], "@babel/runtime/helpers/classCallCheck"));
@@ -114156,7 +114325,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       backgroundColor: 'white'
     }
   });
-},685,[1,19,27,30,33,29,46,2,675,686],"src\\components\\CropScreen.tsx");
+},687,[1,19,27,30,33,29,46,2,675,688],"src\\components\\CropScreen.tsx");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -114292,7 +114461,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       _this.lastKnownBottom = _styles.DEFAULT_MARGIN;
       _this.lastKnownRight = _styles.DEFAULT_MARGIN;
       _this.position = {
-        position: "absolute",
+        position: 'absolute',
         top: _styles.DEFAULT_MARGIN,
         left: _styles.DEFAULT_MARGIN,
         bottom: _styles.DEFAULT_MARGIN,
@@ -114356,8 +114525,6 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           this.position.top = top;
           this.position.bottom = bottom;
         }
-
-        ;
 
         if (left <= this.horizontalMargin - _styles.ANCHOR_DELTA) {
           this.position.left = this.horizontalMargin - _styles.ANCHOR_DELTA;
@@ -114457,12 +114624,10 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           onPanResponderRelease: function onPanResponderRelease(e, gestureState) {
             _this2.lastKnownLeft = _this2.position.left;
             _this2.lastKnownBottom = _this2.position.bottom;
-            ;
           },
           onPanResponderTerminate: function onPanResponderTerminate(e, gestureState) {
             _this2.lastKnownLeft = _this2.position.left;
             _this2.lastKnownBottom = _this2.position.bottom;
-            ;
           }
         });
         this.bottomRightResponder = _reactNative.PanResponder.create({
@@ -114489,12 +114654,10 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           onPanResponderRelease: function onPanResponderRelease(e, gestureState) {
             _this2.lastKnownRight = _this2.position.right;
             _this2.lastKnownBottom = _this2.position.bottom;
-            ;
           },
           onPanResponderTerminate: function onPanResponderTerminate(e, gestureState) {
             _this2.lastKnownRight = _this2.position.right;
             _this2.lastKnownBottom = _this2.position.bottom;
-            ;
           }
         });
         this.centerResponder = _reactNative.PanResponder.create({
@@ -114581,7 +114744,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           onLayout: this.onUpdateLayout,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 318
+            lineNumber: 315
           }
         }, _react.default.createElement(_reactNative.View, {
           style: {
@@ -114589,93 +114752,93 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 319
+            lineNumber: 321
           }
         }, _react.default.createElement(_reactNative.View, {
           ref: this.setRef,
           style: _styles.default.container,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 320
+            lineNumber: 322
           }
         }, _react.default.createElement(_reactNative.View, {
           style: _styles.default.crop,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 321
+            lineNumber: 323
           }
-        }), _react.default.createElement(_reactNative.View, (0, _extends2.default)({
+        }, _react.default.createElement(_reactNative.View, (0, _extends2.default)({
+          style: _styles.default.center
+        }, this.centerResponder.panHandlers, {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 324
+          }
+        }), _react.default.createElement(_reactNative.View, {
+          style: _styles.default.pivotCenter,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 325
+          }
+        }, _react.default.createElement(_reactNative.View, {
+          style: _styles.default.anchorCenter,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 326
+          }
+        })))), _react.default.createElement(_reactNative.View, (0, _extends2.default)({
           style: _styles.default.topLeft
         }, this.topLeftResponder.panHandlers, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 322
+            lineNumber: 330
           }
         }), _react.default.createElement(_reactNative.View, {
           style: _styles.default.anchor,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 323
+            lineNumber: 331
           }
         })), _react.default.createElement(_reactNative.View, (0, _extends2.default)({
           style: _styles.default.topRight
         }, this.topRightResponder.panHandlers, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 325
+            lineNumber: 333
           }
         }), _react.default.createElement(_reactNative.View, {
           style: _styles.default.anchor,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 326
+            lineNumber: 334
           }
         })), _react.default.createElement(_reactNative.View, (0, _extends2.default)({
           style: _styles.default.bottomLeft
         }, this.bottomLeftResponder.panHandlers, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 328
+            lineNumber: 336
           }
         }), _react.default.createElement(_reactNative.View, {
           style: _styles.default.anchor,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 329
+            lineNumber: 337
           }
         })), _react.default.createElement(_reactNative.View, (0, _extends2.default)({
           style: _styles.default.bottomRight
         }, this.bottomRightResponder.panHandlers, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 331
+            lineNumber: 339
           }
         }), _react.default.createElement(_reactNative.View, {
           style: _styles.default.anchor,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 332
+            lineNumber: 340
           }
-        })), _react.default.createElement(_reactNative.View, {
-          style: _styles.default.center,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 334
-          }
-        }, _react.default.createElement(_reactNative.View, (0, _extends2.default)({
-          style: _styles.default.centerUpdate
-        }, this.centerResponder.panHandlers, {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 335
-          }
-        }), _react.default.createElement(_reactNative.View, {
-          style: _styles.default.anchorLight,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 336
-          }
-        }))))));
+        })))));
       }
     }]);
     return ImageCrop;
@@ -114687,7 +114850,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     imageRotation: _propTypes.number
   };
   exports.ImageCrop = ImageCrop = _wrapComponent("ImageCrop")(ImageCrop);
-},686,[1,595,8,19,20,27,30,33,46,184,2,63,687],"src\\components\\ImageCrop\\index.js");
+},688,[1,595,8,19,20,27,30,33,46,184,2,63,689],"src\\components\\ImageCrop\\index.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   Object.defineProperty(exports, "__esModule", {
     value: true
@@ -114700,7 +114863,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   exports.DEFAULT_MARGIN = DEFAULT_MARGIN;
   var ANCHOR_REAL_SIZE = 10;
   exports.ANCHOR_REAL_SIZE = ANCHOR_REAL_SIZE;
-  var ANCHOR_VIRTUAL_SIZE = 32;
+  var ANCHOR_VIRTUAL_SIZE = 36;
   exports.ANCHOR_VIRTUAL_SIZE = ANCHOR_VIRTUAL_SIZE;
   var ANCHOR_DELTA = ANCHOR_VIRTUAL_SIZE / 2 + 1;
   exports.ANCHOR_DELTA = ANCHOR_DELTA;
@@ -114708,14 +114871,14 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   var _default = _reactNative.StyleSheet.create({
     container: {
-      position: "absolute",
+      position: 'absolute',
       top: DEFAULT_MARGIN,
       left: DEFAULT_MARGIN,
       bottom: DEFAULT_MARGIN,
       right: DEFAULT_MARGIN
     },
     crop: {
-      position: "absolute",
+      position: 'absolute',
       top: ANCHOR_VIRTUAL_SIZE / 2,
       left: ANCHOR_VIRTUAL_SIZE / 2,
       bottom: ANCHOR_VIRTUAL_SIZE / 2,
@@ -114724,7 +114887,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       borderWidth: 1
     },
     topLeft: {
-      position: "absolute",
+      position: 'absolute',
       backgroundColor: 'transparent',
       width: ANCHOR_VIRTUAL_SIZE,
       height: ANCHOR_VIRTUAL_SIZE,
@@ -114732,7 +114895,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       left: 0
     },
     topRight: {
-      position: "absolute",
+      position: 'absolute',
       backgroundColor: 'transparent',
       width: ANCHOR_VIRTUAL_SIZE,
       height: ANCHOR_VIRTUAL_SIZE,
@@ -114740,7 +114903,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       right: 0
     },
     bottomLeft: {
-      position: "absolute",
+      position: 'absolute',
       backgroundColor: 'transparent',
       width: ANCHOR_VIRTUAL_SIZE,
       height: ANCHOR_VIRTUAL_SIZE,
@@ -114748,7 +114911,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       left: 0
     },
     bottomRight: {
-      position: "absolute",
+      position: 'absolute',
       backgroundColor: 'transparent',
       width: ANCHOR_VIRTUAL_SIZE,
       height: ANCHOR_VIRTUAL_SIZE,
@@ -114756,17 +114919,12 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       right: 0
     },
     center: {
-      position: "absolute",
-      top: '50%',
-      left: '50%'
-    },
-    centerUpdate: {
-      position: "relative",
+      position: 'absolute',
       backgroundColor: 'transparent',
-      width: ANCHOR_VIRTUAL_SIZE,
-      height: ANCHOR_VIRTUAL_SIZE,
-      top: '-50%',
-      left: '-50%'
+      top: ANCHOR_VIRTUAL_SIZE / 2,
+      left: ANCHOR_VIRTUAL_SIZE / 2,
+      right: ANCHOR_VIRTUAL_SIZE / 2,
+      bottom: ANCHOR_VIRTUAL_SIZE / 2
     },
     anchor: {
       backgroundColor: ANCHOR_COLOR,
@@ -114775,19 +114933,25 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       borderRadius: ANCHOR_REAL_SIZE / 2,
       margin: (ANCHOR_VIRTUAL_SIZE - ANCHOR_REAL_SIZE) / 2
     },
-    anchorLight: {
-      backgroundColor: 'transparent',
+    pivotCenter: {
+      position: "absolute",
+      top: '50%',
+      left: '50%'
+    },
+    anchorCenter: {
+      position: 'relative',
       width: ANCHOR_REAL_SIZE / 2,
       height: ANCHOR_REAL_SIZE / 2,
       borderRadius: ANCHOR_REAL_SIZE / 4,
       borderWidth: 1,
       borderColor: ANCHOR_COLOR,
-      margin: (ANCHOR_VIRTUAL_SIZE - ANCHOR_REAL_SIZE) / 2
+      top: '-50%',
+      left: '-50%'
     }
   });
 
   exports.default = _default;
-},687,[2],"src\\components\\ImageCrop\\styles.js");
+},689,[2],"src\\components\\ImageCrop\\styles.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -114901,7 +115065,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     title: 'Home'
   };
   exports.MainScreen = MainScreen = _wrapComponent("MainScreen")(MainScreen);
-},688,[1,595,20,27,30,33,19,46,184,2],"src\\components\\MainScreen.tsx");
+},690,[1,595,20,27,30,33,19,46,184,2],"src\\components\\MainScreen.tsx");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -115079,7 +115243,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       backgroundColor: 'white'
     }
   });
-},689,[1,19,27,30,33,29,46,2,675],"src\\components\\PreviewScreen.tsx");
+},691,[1,19,27,30,33,29,46,2,675],"src\\components\\PreviewScreen.tsx");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -115107,6 +115271,8 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   var _reactNative = _$$_REQUIRE(_dependencyMap[9], "react-native");
 
   var _VisualSearchRequest = _$$_REQUIRE(_dependencyMap[10], "../services/VisualSearchRequest");
+
+  var _ImageHelper = _$$_REQUIRE(_dependencyMap[11], "../utils/ImageHelper");
 
   var _jsxFileName = "c:\\Users\\jdupuy\\Projects\\VisualSearch\\VisualSearch-React\\src\\components\\SearchScreen.tsx";
   var _components = {
@@ -115162,31 +115328,36 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     (0, _createClass2.default)(SearchScreen, [{
       key: "getVisualSearchAsync",
       value: function getVisualSearchAsync() {
-        var vs, items;
+        var vs, imageInfo, items;
         return _regenerator.default.async(function getVisualSearchAsync$(_context2) {
           while (1) {
             switch (_context2.prev = _context2.next) {
               case 0:
                 vs = new _VisualSearchRequest.VisualSearchRequest();
                 _context2.next = 3;
-                return _regenerator.default.awrap(vs.postAsync(this._imageData.uri, undefined, 60));
+                return _regenerator.default.awrap(_ImageHelper.ImageHelper.limitImageSizeAsync(this._imageData.uri));
 
               case 3:
+                imageInfo = _context2.sent;
+                _context2.next = 6;
+                return _regenerator.default.awrap(vs.postAsync(imageInfo.uri, undefined, 60));
+
+              case 6:
                 items = _context2.sent;
 
                 if (items) {
-                  _context2.next = 6;
+                  _context2.next = 9;
                   break;
                 }
 
                 return _context2.abrupt("return");
 
-              case 6:
+              case 9:
                 this.setState({
                   items: items
                 });
 
-              case 7:
+              case 10:
               case "end":
                 return _context2.stop();
             }
@@ -115226,7 +115397,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           style: styles.container,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 55
+            lineNumber: 57
           }
         }, _react.default.createElement(_reactNative.Image, {
           resizeMode: "contain",
@@ -115239,7 +115410,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 56
+            lineNumber: 58
           }
         }), _react.default.createElement(_reactNative.FlatList, {
           data: this.state.items,
@@ -115250,13 +115421,13 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
             return _react.default.createElement(_reactNative.TouchableOpacity, {
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 66
+                lineNumber: 68
               }
             }, _react.default.createElement(_reactNative.View, {
               style: styles.card,
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 67
+                lineNumber: 69
               }
             }, _react.default.createElement(_reactNative.Image, {
               source: {
@@ -115265,25 +115436,25 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
               style: styles.avatar,
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 68
+                lineNumber: 70
               }
             }), _react.default.createElement(_reactNative.View, {
               style: styles.description,
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 69
+                lineNumber: 71
               }
             }, _react.default.createElement(_reactNative.Text, {
               style: styles.title,
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 70
+                lineNumber: 72
               }
             }, renderedItem.item.Article))));
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 61
+            lineNumber: 63
           }
         }));
       }
@@ -115344,7 +115515,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       fontSize: 10
     }
   });
-},690,[1,95,19,20,27,30,33,46,184,2,691],"src\\components\\SearchScreen.tsx");
+},692,[1,95,19,20,27,30,33,46,184,2,693,685],"src\\components\\SearchScreen.tsx");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
 
@@ -115605,7 +115776,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     webp: 'image/webp',
     wmf: 'image/wmf'
   };
-},691,[1,43,9,27,30,33,692,95,19,20,695,721],"src\\services\\VisualSearchRequest.ts");
+},693,[1,43,9,27,30,33,694,95,19,20,697,723],"src\\services\\VisualSearchRequest.ts");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var getPrototypeOf = _$$_REQUIRE(_dependencyMap[0], "./getPrototypeOf");
 
@@ -115650,14 +115821,14 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   }
 
   module.exports = _wrapNativeSuper;
-},692,[30,34,693,694],"node_modules\\@babel\\runtime\\helpers\\wrapNativeSuper.js");
+},694,[30,34,695,696],"node_modules\\@babel\\runtime\\helpers\\wrapNativeSuper.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   function _isNativeFunction(fn) {
     return Function.toString.call(fn).indexOf("[native code]") !== -1;
   }
 
   module.exports = _isNativeFunction;
-},693,[],"node_modules\\@babel\\runtime\\helpers\\isNativeFunction.js");
+},695,[],"node_modules\\@babel\\runtime\\helpers\\isNativeFunction.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   var setPrototypeOf = _$$_REQUIRE(_dependencyMap[0], "./setPrototypeOf");
 
@@ -115692,10 +115863,10 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   }
 
   module.exports = _construct;
-},694,[34],"node_modules\\@babel\\runtime\\helpers\\construct.js");
+},696,[34],"node_modules\\@babel\\runtime\\helpers\\construct.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   module.exports = _$$_REQUIRE(_dependencyMap[0], "./lib/axios");
-},695,[696],"node_modules\\axios\\index.js");
+},697,[698],"node_modules\\axios\\index.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -115733,7 +115904,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   axios.spread = _$$_REQUIRE(_dependencyMap[7], "./helpers/spread");
   module.exports = axios;
   module.exports.default = axios;
-},696,[697,698,700,701,718,719,715,720],"node_modules\\axios\\lib\\axios.js");
+},698,[699,700,702,703,720,721,717,722],"node_modules\\axios\\lib\\axios.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -115892,7 +116063,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     extend: extend,
     trim: trim
   };
-},697,[698,699],"node_modules\\axios\\lib\\utils.js");
+},699,[700,701],"node_modules\\axios\\lib\\utils.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -115907,7 +116078,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       return fn.apply(thisArg, args);
     };
   };
-},698,[],"node_modules\\axios\\lib\\helpers\\bind.js");
+},700,[],"node_modules\\axios\\lib\\helpers\\bind.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   /*!
    * Determine if an object is a Buffer
@@ -115926,7 +116097,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   function isSlowBuffer(obj) {
     return typeof obj.readFloatLE === 'function' && typeof obj.slice === 'function' && isBuffer(obj.slice(0, 0));
   }
-},699,[],"node_modules\\is-buffer\\index.js");
+},701,[],"node_modules\\is-buffer\\index.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -115991,7 +116162,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     };
   });
   module.exports = Axios;
-},700,[701,697,712,713],"node_modules\\axios\\lib\\core\\Axios.js");
+},702,[703,699,714,715],"node_modules\\axios\\lib\\core\\Axios.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116075,7 +116246,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     defaults.headers[method] = utils.merge(DEFAULT_CONTENT_TYPE);
   });
   module.exports = defaults;
-},701,[697,702,703,703],"node_modules\\axios\\lib\\defaults.js");
+},703,[699,704,705,705],"node_modules\\axios\\lib\\defaults.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116089,7 +116260,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       }
     });
   };
-},702,[697],"node_modules\\axios\\lib\\helpers\\normalizeHeaderName.js");
+},704,[699],"node_modules\\axios\\lib\\helpers\\normalizeHeaderName.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116233,7 +116404,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       request.send(requestData);
     });
   };
-},703,[697,704,707,708,709,705,710,711],"node_modules\\axios\\lib\\adapters\\xhr.js");
+},705,[699,706,709,710,711,707,712,713],"node_modules\\axios\\lib\\adapters\\xhr.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116248,7 +116419,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       reject(createError('Request failed with status code ' + response.status, response.config, null, response.request, response));
     }
   };
-},704,[705],"node_modules\\axios\\lib\\core\\settle.js");
+},706,[707],"node_modules\\axios\\lib\\core\\settle.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116258,7 +116429,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     var error = new Error(message);
     return enhanceError(error, config, code, request, response);
   };
-},705,[706],"node_modules\\axios\\lib\\core\\createError.js");
+},707,[708],"node_modules\\axios\\lib\\core\\createError.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116273,7 +116444,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     error.response = response;
     return error;
   };
-},706,[],"node_modules\\axios\\lib\\core\\enhanceError.js");
+},708,[],"node_modules\\axios\\lib\\core\\enhanceError.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116326,7 +116497,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
     return url;
   };
-},707,[697],"node_modules\\axios\\lib\\helpers\\buildURL.js");
+},709,[699],"node_modules\\axios\\lib\\helpers\\buildURL.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116363,7 +116534,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     });
     return parsed;
   };
-},708,[697],"node_modules\\axios\\lib\\helpers\\parseHeaders.js");
+},710,[699],"node_modules\\axios\\lib\\helpers\\parseHeaders.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116405,7 +116576,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       return true;
     };
   }();
-},709,[697],"node_modules\\axios\\lib\\helpers\\isURLSameOrigin.js");
+},711,[699],"node_modules\\axios\\lib\\helpers\\isURLSameOrigin.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116437,7 +116608,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   }
 
   module.exports = btoa;
-},710,[],"node_modules\\axios\\lib\\helpers\\btoa.js");
+},712,[],"node_modules\\axios\\lib\\helpers\\btoa.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116484,7 +116655,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       remove: function remove() {}
     };
   }();
-},711,[697],"node_modules\\axios\\lib\\helpers\\cookies.js");
+},713,[699],"node_modules\\axios\\lib\\helpers\\cookies.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116517,7 +116688,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   module.exports = InterceptorManager;
-},712,[697],"node_modules\\axios\\lib\\core\\InterceptorManager.js");
+},714,[699],"node_modules\\axios\\lib\\core\\InterceptorManager.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116569,7 +116740,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       return Promise.reject(reason);
     });
   };
-},713,[697,714,715,701,716,717],"node_modules\\axios\\lib\\core\\dispatchRequest.js");
+},715,[699,716,717,703,718,719],"node_modules\\axios\\lib\\core\\dispatchRequest.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116581,28 +116752,28 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
     });
     return data;
   };
-},714,[697],"node_modules\\axios\\lib\\core\\transformData.js");
+},716,[699],"node_modules\\axios\\lib\\core\\transformData.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
   module.exports = function isCancel(value) {
     return !!(value && value.__CANCEL__);
   };
-},715,[],"node_modules\\axios\\lib\\cancel\\isCancel.js");
+},717,[],"node_modules\\axios\\lib\\cancel\\isCancel.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
   module.exports = function isAbsoluteURL(url) {
     return /^([a-z][a-z\d\+\-\.]*:)?\/\//i.test(url);
   };
-},716,[],"node_modules\\axios\\lib\\helpers\\isAbsoluteURL.js");
+},718,[],"node_modules\\axios\\lib\\helpers\\isAbsoluteURL.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
   module.exports = function combineURLs(baseURL, relativeURL) {
     return relativeURL ? baseURL.replace(/\/+$/, '') + '/' + relativeURL.replace(/^\/+/, '') : baseURL;
   };
-},717,[],"node_modules\\axios\\lib\\helpers\\combineURLs.js");
+},719,[],"node_modules\\axios\\lib\\helpers\\combineURLs.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116616,7 +116787,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
 
   Cancel.prototype.__CANCEL__ = true;
   module.exports = Cancel;
-},718,[],"node_modules\\axios\\lib\\cancel\\Cancel.js");
+},720,[],"node_modules\\axios\\lib\\cancel\\Cancel.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116660,7 +116831,7 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
   };
 
   module.exports = CancelToken;
-},719,[718],"node_modules\\axios\\lib\\cancel\\CancelToken.js");
+},721,[720],"node_modules\\axios\\lib\\cancel\\CancelToken.js");
 __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
   'use strict';
 
@@ -116669,153 +116840,20 @@ __d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, e
       return callback.apply(null, arr);
     };
   };
-},720,[],"node_modules\\axios\\lib\\helpers\\spread.js");
+},722,[],"node_modules\\axios\\lib\\helpers\\spread.js");
 __d(function(global, require, _aUnused, _bUnused, module, exports, _cUnused) {
   module.exports = {
     "baseUrl" : "https://api.cognitive.microsoft.com/bing/customvisualsearch/v1/instances/",
     "instanceId": "3a37f816-4d92-48bf-a29a-a3ac0280b25a",
     "accessKey": "599c05acfe564cdbb37598b12c6da61a"
   };
-},721,[],"azurekey.json");
+},723,[],"azurekey.json");
 __d(function(global, require, _aUnused, _bUnused, module, exports, _cUnused) {
   module.exports = {
   "name": "VisualSearchClient",
   "displayName": "VisualSearchClient"
 };
-},722,[],"app.json");
-__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
-  var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
-
-  Object.defineProperty(exports, "__esModule", {
-    value: true
-  });
-  exports.ImageHelper = exports.ORIENTATION = void 0;
-
-  var _regenerator = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[1], "@babel/runtime/regenerator"));
-
-  var _classCallCheck2 = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[2], "@babel/runtime/helpers/classCallCheck"));
-
-  var _reactNativeImageResizer = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[3], "react-native-image-resizer"));
-
-  var MAX_WIDTH = 2000;
-  var MAX_HEIGHT = 2000;
-  var QUALITY = 80;
-  var ORIENTATION;
-  exports.ORIENTATION = ORIENTATION;
-
-  (function (ORIENTATION) {
-    ORIENTATION[ORIENTATION["ROTATE_0"] = 0] = "ROTATE_0";
-    ORIENTATION[ORIENTATION["ROTATE_90"] = 90] = "ROTATE_90";
-    ORIENTATION[ORIENTATION["ROTATE_180"] = 180] = "ROTATE_180";
-    ORIENTATION[ORIENTATION["ROTATE_270"] = 270] = "ROTATE_270";
-  })(ORIENTATION || (exports.ORIENTATION = ORIENTATION = {}));
-
-  var ImageHelper = function ImageHelper() {
-    (0, _classCallCheck2.default)(this, ImageHelper);
-  };
-
-  exports.ImageHelper = ImageHelper;
-
-  ImageHelper.postRotateAsync = function _callee(uri, angle) {
-    var uriUpdated, data;
-    return _regenerator.default.async(function _callee$(_context) {
-      while (1) {
-        switch (_context.prev = _context.next) {
-          case 0:
-            uriUpdated = undefined;
-            _context.prev = 1;
-            _context.next = 4;
-            return _regenerator.default.awrap(_reactNativeImageResizer.default.createResizedImage(uri, MAX_WIDTH, MAX_HEIGHT, 'JPEG', QUALITY, angle));
-
-          case 4:
-            data = _context.sent;
-            uriUpdated = data.uri;
-            _context.next = 11;
-            break;
-
-          case 8:
-            _context.prev = 8;
-            _context.t0 = _context["catch"](1);
-            console.log(_context.t0);
-
-          case 11:
-            return _context.abrupt("return", uriUpdated);
-
-          case 12:
-          case "end":
-            return _context.stop();
-        }
-      }
-    }, null, this, [[1, 8]]);
-  };
-
-  ImageHelper.fixRotationFromExifAsync = function _callee2(uri, exifOrientation) {
-    return _regenerator.default.async(function _callee2$(_context2) {
-      while (1) {
-        switch (_context2.prev = _context2.next) {
-          case 0:
-            _context2.t0 = exifOrientation;
-            _context2.next = _context2.t0 === 6 ? 3 : _context2.t0 === 3 ? 6 : _context2.t0 === 8 ? 9 : 12;
-            break;
-
-          case 3:
-            _context2.next = 5;
-            return _regenerator.default.awrap(ImageHelper.postRotateAsync(uri, ORIENTATION.ROTATE_90));
-
-          case 5:
-            return _context2.abrupt("return", _context2.sent);
-
-          case 6:
-            _context2.next = 8;
-            return _regenerator.default.awrap(ImageHelper.postRotateAsync(uri, ORIENTATION.ROTATE_180));
-
-          case 8:
-            return _context2.abrupt("return", _context2.sent);
-
-          case 9:
-            _context2.next = 11;
-            return _regenerator.default.awrap(ImageHelper.postRotateAsync(uri, ORIENTATION.ROTATE_270));
-
-          case 11:
-            return _context2.abrupt("return", _context2.sent);
-
-          case 12:
-            _context2.next = 14;
-            return _regenerator.default.awrap(ImageHelper.postRotateAsync(uri, ORIENTATION.ROTATE_0));
-
-          case 14:
-            return _context2.abrupt("return", _context2.sent);
-
-          case 15:
-          case "end":
-            return _context2.stop();
-        }
-      }
-    }, null, this);
-  };
-},727,[1,95,19,726],"src\\utils\\ImageHelper.ts");
-__d(function (global, _$$_REQUIRE, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, _dependencyMap) {
-  var _interopRequireDefault = _$$_REQUIRE(_dependencyMap[0], "@babel/runtime/helpers/interopRequireDefault");
-
-  Object.defineProperty(exports, "__esModule", {
-    value: true
-  });
-  exports.default = void 0;
-
-  var _reactNative = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[1], "react-native"));
-
-  var ImageResizerAndroid = _reactNative.default.NativeModules.ImageResizerAndroid;
-  var _default = {
-    createResizedImage: function createResizedImage(imagePath, newWidth, newHeight, compressFormat, quality) {
-      var rotation = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : 0;
-      var outputPath = arguments.length > 6 ? arguments[6] : undefined;
-      return new Promise(function (resolve, reject) {
-        ImageResizerAndroid.createResizedImage(imagePath, newWidth, newHeight, compressFormat, quality, rotation, outputPath, resolve, reject);
-      });
-    }
-  };
-  exports.default = _default;
-},726,[1,2],"node_modules\\react-native-image-resizer\\index.android.js");
+},724,[],"app.json");
 __r(82);
 __r(0);
 //# sourceMappingURL=index.map
