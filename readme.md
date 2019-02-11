@@ -2,12 +2,12 @@
 
 Sample code to demonstrate usage of [Bing Custom Visual Search service](https://www.bing.com/partners/developers). This code contains the following features. 
 
-[x] Take a picture with the camera
-[x] Pick a picture in the camera roll
-[x] Crop a portion of the picture if several articles are on located on the same image
-[x] Preview Image (and manage rotation from Exif data)
-[x] Request Custom Visual Search API
-[x] Display results 
+- [x] Take a picture with the camera
+- [x] Pick a picture in the camera roll
+- [x] Crop a portion of the picture if several articles are on located on the same image
+- [x] Preview Image (and manage rotation from Exif data)
+- [x] Request Custom Visual Search API
+- [x] Display results 
 
 Prior to launch this code, you must create and train a instance of Bing Custom Visual Search and set appropriate credentials as explained below.
 
