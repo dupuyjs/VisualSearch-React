@@ -2,6 +2,7 @@ import React from 'react';
 import { FlatList, Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { NavigationScreenProps } from 'react-navigation';
 import { VisualSearchRequest } from '../services/VisualSearchRequest';
+import { ImageHelper } from '../utils/ImageHelper';
 import { ImageData } from './ImageData';
 
 export interface VisualSearchSate {
@@ -25,7 +26,8 @@ export class SearchScreen extends React.Component<NavigationScreenProps, VisualS
 
   async getVisualSearchAsync() {
     const vs = new VisualSearchRequest();
-    let items = await vs.postAsync(this._imageData.uri, undefined, 60);
+    let imageInfo = await ImageHelper.limitImageSizeAsync(this._imageData.uri);
+    let items = await vs.postAsync(imageInfo.uri, undefined, 60);
 
     if (!items) return;
 

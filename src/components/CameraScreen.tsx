@@ -62,10 +62,10 @@ export class CameraScreen extends React.Component<NavigationScreenProps> {
       const options: any = { fixOrientation: false, exif: true };
 
       this.camera.takePictureAsync(options).then(async (data) => {
-        let uri: any = await ImageHelper.fixRotationFromExifAsync(data.uri, data.exif.Orientation);
+        let imageInfo = await ImageHelper.fixRotationFromExifAsync(data.uri, data.exif.Orientation);
 
         const imageData: ImageData = {
-          uri: uri,
+          uri: imageInfo.uri,
           imageRotation: undefined,
         };
         this.props.navigation.navigate('PreviewScreen', { data: imageData });
