@@ -1,7 +1,7 @@
 import ImageResizer from 'react-native-image-resizer';
 
-const MAX_WIDTH = 2000;
-const MAX_HEIGHT = 2000;
+const MAX_WIDTH = 1000;
+const MAX_HEIGHT = 1000;
 const QUALITY = 80;
 
 export enum ORIENTATION {
@@ -11,18 +11,39 @@ export enum ORIENTATION {
   ROTATE_270 = 270,
 }
 
+export interface ResizedImageInfo {
+  path: string;
+  uri: string;
+  size?: number;
+  name?: string;
+}
+
 export class ImageHelper {
-  static postRotateAsync = async (uri: string, angle: ORIENTATION) => {
-    let uriUpdated: string = undefined;
+  static postRotateAsync = async (uri: string, angle: ORIENTATION): Promise<ResizedImageInfo> => {
+    let data: ResizedImageInfo = undefined;
 
     try {
-      let data = await ImageResizer.createResizedImage(uri, MAX_WIDTH, MAX_HEIGHT, 'JPEG', QUALITY, angle);
-      uriUpdated = data.uri;
+      data = await ImageResizer.createResizedImage(uri, MAX_WIDTH, MAX_HEIGHT, 'JPEG', QUALITY, angle);
     } catch (err) {
       console.log(err);
     }
 
-    return uriUpdated;
+    return data;
+  };
+
+  static limitImageSizeAsync = async (uri: string) => {
+    let data: ResizedImageInfo = undefined;
+
+    try {
+      data = await ImageResizer.createResizedImage(uri, MAX_WIDTH, MAX_HEIGHT, 'JPEG', QUALITY, 0);
+      if (data.size >= 100000) {
+          console.error('Image size should be less than 1MB, please reduce MAX_WIDTH, MAX_HEIGHT or QUALITY');
+      }
+    } catch (err) {
+      console.log(err);
+    }
+
+    return data;
   };
 
   static fixRotationFromExifAsync = async (uri: string, exifOrientation: number) => {
