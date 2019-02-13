@@ -1,5 +1,7 @@
 import ImageResizer from 'react-native-image-resizer';
 
+const MAX_DISPLAY_WIDTH = 2000;
+const MAX_DISPLAY_HEIGHT = 2000;
 const MAX_WIDTH = 1000;
 const MAX_HEIGHT = 1000;
 const QUALITY = 80;
@@ -19,11 +21,11 @@ export interface ResizedImageInfo {
 }
 
 export class ImageHelper {
-  static postRotateAsync = async (uri: string, angle: ORIENTATION): Promise<ResizedImageInfo> => {
+  static setSizeAndRotationAsync = async (uri: string, angle: ORIENTATION): Promise<ResizedImageInfo> => {
     let data: ResizedImageInfo = undefined;
 
     try {
-      data = await ImageResizer.createResizedImage(uri, MAX_WIDTH, MAX_HEIGHT, 'JPEG', QUALITY, angle);
+      data = await ImageResizer.createResizedImage(uri, MAX_DISPLAY_WIDTH, MAX_DISPLAY_HEIGHT, 'JPEG', QUALITY, angle);
     } catch (err) {
       console.log(err);
     }
@@ -49,13 +51,13 @@ export class ImageHelper {
   static fixRotationFromExifAsync = async (uri: string, exifOrientation: number) => {
     switch (exifOrientation) {
       case 6:
-        return await ImageHelper.postRotateAsync(uri, ORIENTATION.ROTATE_90);
+        return await ImageHelper.setSizeAndRotationAsync(uri, ORIENTATION.ROTATE_90);
       case 3:
-        return await ImageHelper.postRotateAsync(uri, ORIENTATION.ROTATE_180);
+        return await ImageHelper.setSizeAndRotationAsync(uri, ORIENTATION.ROTATE_180);
       case 8:
-        return await ImageHelper.postRotateAsync(uri, ORIENTATION.ROTATE_270);
+        return await ImageHelper.setSizeAndRotationAsync(uri, ORIENTATION.ROTATE_270);
       default:
-        return await ImageHelper.postRotateAsync(uri, ORIENTATION.ROTATE_0);
+        return await ImageHelper.setSizeAndRotationAsync(uri, ORIENTATION.ROTATE_0);
     }
   };
 }

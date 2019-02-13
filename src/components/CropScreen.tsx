@@ -23,7 +23,6 @@ export class CropScreen extends React.Component<NavigationScreenProps> {
     this._imageCrop.cropImage((uri) => {
       const imageData: ImageData = {
         uri: uri,
-        imageRotation: undefined,
       };
       this.props.navigation.navigate('PreviewScreen', { data: imageData });
     });
@@ -46,7 +45,6 @@ export class CropScreen extends React.Component<NavigationScreenProps> {
         <ImageCrop
           ref={this.setRef}
           imageUri={this._imageData.uri}
-          imageRotation={this._imageData.imageRotation}
         />
 
         <View style={styles.menu}>

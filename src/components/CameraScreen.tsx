@@ -66,7 +66,6 @@ export class CameraScreen extends React.Component<NavigationScreenProps> {
 
         const imageData: ImageData = {
           uri: imageInfo.uri,
-          imageRotation: undefined,
         };
         this.props.navigation.navigate('PreviewScreen', { data: imageData });
       });
@@ -92,9 +91,10 @@ export class CameraScreen extends React.Component<NavigationScreenProps> {
       });
 
     let data = await launchImagePromise();
+
+    let imageInfo = await ImageHelper.setSizeAndRotationAsync(data.uri, 0);
     const imageData: ImageData = {
-      uri: data.uri,
-      imageRotation: data.originalRotation,
+      uri: imageInfo.uri,
     };
 
     this.props.navigation.navigate('PreviewScreen', { data: imageData });

@@ -8,7 +8,6 @@ import styles from './styles';
 export class ImageCrop extends React.Component {
   static propTypes = {
     imageUri: string,
-    imageRotation: number,
   };
 
   constructor(props) {
@@ -226,6 +225,14 @@ export class ImageCrop extends React.Component {
         this.horizontalMargin = 0;
         this.verticalMargin = margin;
       }
+
+      // Ensure the crop zone is inside the picture.
+      this.setTop(DEFAULT_MARGIN);
+      this.setBottom(DEFAULT_MARGIN);
+      this.setRight(DEFAULT_MARGIN);
+      this.setLeft(DEFAULT_MARGIN);
+
+      this.crop.setNativeProps({ style: this.position });
     }
   }
 
@@ -265,20 +272,6 @@ export class ImageCrop extends React.Component {
       let y = ty;
       let width = twidth;
       let height = theight;
-
-      /* Fix in case image has been rotated of 90° */
-      if (this.props.imageRotation) {
-        switch (this.props.imageRotation) {
-          case 90:
-            x = ty;
-            y = this.widthImage - tx - twidth;
-            width = theight;
-            height = twidth;
-            break;
-          default:
-            break;
-        }
-      }
 
       cropData = {
         offset: { x: x, y: y },
